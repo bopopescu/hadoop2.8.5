@@ -83,6 +83,23 @@ COPY config/spark/* $SPARK_HOME/conf/
 # copy env variables
 ADD config/other/bashrc /root/.bashrc
 
+
+RUN \
+    for user in hadoop hdfs yarn mapred hue; do \
+         useradd -U -M -d $HADOOP_HOME --shell /bin/bash ${user}; \
+    done && \
+    for user in root hdfs yarn mapred hue; do \
+         usermod -G hadoop ${user}; \
+    done && \
+
+    echo "export HDFS_DATANODE_USER=root" >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh && \
+#    echo "export HDFS_DATANODE_SECURE_USER=hdfs" >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh && \
+    echo "export HDFS_NAMENODE_USER=root" >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh && \
+    echo "export HDFS_SECONDARYNAMENODE_USER=root" >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh && \
+    echo "export YARN_RESOURCEMANAGER_USER=root" >> $HADOOP_HOME/etc/hadoop/yarn-env.sh && \
+    echo "export YARN_NODEMANAGER_USER=root" >> $HADOOP_HOME/etc/hadoop/yarn-env.sh && \
+    echo "PATH=$PATH:$HADOOP_HOME/bin" >> ~/.bashrc
+
 # HUE
 ADD hue-4.3.0 /hue-4.3.0
 
