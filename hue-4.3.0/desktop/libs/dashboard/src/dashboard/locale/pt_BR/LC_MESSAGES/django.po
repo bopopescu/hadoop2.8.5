@@ -1,0 +1,1471 @@
+# Portuguese (Brazil) translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/dashboard/api.py:71
+msgid "Error while accessing Solr"
+msgstr "Erro ao acessar Solr"
+
+#: src/dashboard/api.py:75 src/dashboard/views.py:257
+msgid "There is no collection to search."
+msgstr "Não há coleção para pesquisar."
+
+#: src/dashboard/api.py:85 src/dashboard/views.py:292
+#: src/dashboard/views.py:305
+msgid "POST request required."
+msgstr "Solicitação POST necessária."
+
+#: src/dashboard/api.py:167
+msgid "No document was returned by Solr."
+msgstr "Nenhum documento foi retornado pelo Solr."
+
+#: src/dashboard/api.py:169
+msgid "This document does not have any index id."
+msgstr "Este documento não tem ID de índice."
+
+#: src/dashboard/api.py:183
+msgid "Permission to edit the document denied"
+msgstr ""
+
+#: src/dashboard/api.py:204
+msgid "Document successfully updated."
+msgstr ""
+
+#: src/dashboard/api.py:208
+msgid "Document has no modifications to change."
+msgstr ""
+
+#: src/dashboard/api.py:242
+#, fuzzy
+msgid "This field type does not support stats"
+msgstr "Este campo não aceita estatísticas"
+
+#: src/dashboard/api.py:280 src/dashboard/templates/common_search.mako:2676
+msgid "This field does not support stats"
+msgstr "Este campo não aceita estatísticas"
+
+#: src/dashboard/api.py:310
+#, python-format
+msgid "Could not download search results: %s"
+msgstr "Não foi possível baixar os resultados da pesquisa: %s"
+
+#: src/dashboard/conf.py:35
+msgid "Activate the Dashboard link in the menu."
+msgstr ""
+
+#: src/dashboard/conf.py:42
+msgid "Activate the SQL Dashboard (beta)."
+msgstr ""
+
+#: src/dashboard/conf.py:49
+msgid "Activate the static report layout (beta)."
+msgstr ""
+
+#: src/dashboard/conf.py:56
+msgid "Activate the new grid layout system."
+msgstr ""
+
+#: src/dashboard/conf.py:63
+msgid "Activate the simplified drag in the dashboard."
+msgstr ""
+
+#: src/dashboard/conf.py:70
+msgid "Activate the widget filter and comparison (beta)."
+msgstr ""
+
+#: src/dashboard/conf.py:77
+msgid "Activate the tree widget (to drill down fields as dimensions, alpha)."
+msgstr ""
+
+#: src/dashboard/conf.py:111
+msgid "Index (Solr)"
+msgstr ""
+
+#: src/dashboard/conf.py:119
+#, python-format
+msgid "Table (%s)"
+msgstr ""
+
+#: src/dashboard/conf.py:136
+msgid ""
+"Name of the interface to use as query engine for the dashboard, e.g. "
+"solr, sql."
+msgstr ""
+
+#: src/dashboard/conf.py:140
+msgid "Support analytics facets or not."
+msgstr ""
+
+#: src/dashboard/conf.py:146
+msgid "Support nested documents or not."
+msgstr ""
+
+#: src/dashboard/decorators.py:45 src/dashboard/decorators.py:65
+#: src/dashboard/views.py:99
+msgid "Dashboard does not exist or you don't have the permission to access it."
+msgstr ""
+
+#: src/dashboard/models.py:767
+msgid ""
+"The Solr schema requires an id field for performing the result "
+"highlighting"
+msgstr "O esquema Solr requer um campo de ID para executar os resultados indicados"
+
+#: src/dashboard/views.py:255
+msgid "Page saved !"
+msgstr "Página salva!"
+
+#: src/dashboard/templates/admin_collections.mako:25
+#: src/dashboard/templates/admin_collections_m.mako:24
+#: src/dashboard/templates/common_search.mako:59
+#: src/dashboard/templates/no_collections.mako:27
+#: src/dashboard/templates/search.mako:28
+#: src/dashboard/templates/search_m.mako:27
+msgid "Dashboard"
+msgstr "Painel"
+
+#: src/dashboard/templates/common_admin_collections.mako:30
+#: src/dashboard/templates/common_admin_collections.mako:43
+#: src/dashboard/templates/common_search.mako:201
+#: src/dashboard/templates/common_search.mako:208
+msgid "Dashboards"
+msgstr "Painéis"
+
+#: src/dashboard/templates/common_admin_collections.mako:38
+#: src/dashboard/templates/common_admin_collections.mako:39
+msgid "Indexes"
+msgstr "Índices"
+
+#: src/dashboard/templates/common_admin_collections.mako:51
+msgid "Filter dashboards..."
+msgstr "Painéis do filtro..."
+
+#: src/dashboard/templates/common_admin_collections.mako:57
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/dashboard/templates/common_admin_collections.mako:61
+msgid "Delete"
+msgstr "Excluir"
+
+#: src/dashboard/templates/common_admin_collections.mako:67
+#: src/dashboard/templates/common_search.mako:215
+msgid "Share"
+msgstr "Compartilhar"
+
+#: src/dashboard/templates/common_admin_collections.mako:71
+#, fuzzy
+msgid "Export"
+msgstr "Próximo"
+
+#: src/dashboard/templates/common_admin_collections.mako:78
+msgid "Create a new dashboard"
+msgstr "Criar um novo painel"
+
+#: src/dashboard/templates/common_admin_collections.mako:79
+msgid "Create"
+msgstr "Criar"
+
+#: src/dashboard/templates/common_admin_collections.mako:82
+msgid "Import"
+msgstr ""
+
+#: src/dashboard/templates/common_admin_collections.mako:95
+msgid "There are currently no dashboards defined."
+msgstr "No momento não há painéis definidas."
+
+#: src/dashboard/templates/common_admin_collections.mako:96
+msgid "Click here to add"
+msgstr "Clique aqui para adicionar"
+
+#: src/dashboard/templates/common_admin_collections.mako:96
+msgid "one or more."
+msgstr "um ou mais."
+
+#: src/dashboard/templates/common_admin_collections.mako:115
+#: src/dashboard/templates/common_search.mako:3026
+msgid "Name"
+msgstr "Nome"
+
+#: src/dashboard/templates/common_admin_collections.mako:116
+#: src/dashboard/templates/common_search.mako:2804
+msgid "Description"
+msgstr ""
+
+#: src/dashboard/templates/common_admin_collections.mako:117
+msgid "Owner"
+msgstr ""
+
+#: src/dashboard/templates/common_admin_collections.mako:125
+msgid "Click to edit"
+msgstr "Clique para editar"
+
+#: src/dashboard/templates/common_admin_collections.mako:147
+#: src/dashboard/templates/common_search.mako:3019
+msgid "Close"
+msgstr ""
+
+#: src/dashboard/templates/common_admin_collections.mako:148
+msgid "Confirm Delete"
+msgstr "Confirmar exclusão"
+
+#: src/dashboard/templates/common_admin_collections.mako:151
+msgid "Are you sure you want to delete the selected dashboards?"
+msgstr "Tem certeza de que deseja excluir os painéis selecionados?"
+
+#: src/dashboard/templates/common_admin_collections.mako:154
+#: src/dashboard/templates/common_search.mako:3034
+msgid "Cancel"
+msgstr ""
+
+#: src/dashboard/templates/common_admin_collections.mako:155
+msgid "Yes"
+msgstr "Sim"
+
+#: src/dashboard/templates/common_admin_collections.mako:225
+#, fuzzy
+msgid "Dashboard(s) deleted successfully."
+msgstr "Painel excluído com êxito."
+
+#: src/dashboard/templates/common_admin_collections.mako:229
+#, fuzzy
+msgid "Dashboard(s) copied successfully."
+msgstr "Painel copiado com êxito."
+
+#: src/dashboard/templates/common_search.mako:32
+msgid "Increment"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:78
+#: src/dashboard/templates/common_search.mako:2798
+msgid "Table name or <database>.<table>"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:148
+#: src/dashboard/templates/common_search.mako:153
+msgid "Drag to add a widget"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:157
+msgid "Toggle the widget toolbar"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:166
+#: src/dashboard/templates/common_search.mako:604
+msgid "Edit"
+msgstr "Editar"
+
+#: src/dashboard/templates/common_search.mako:174
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: src/dashboard/templates/common_search.mako:180
+msgid "Save as..."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:195
+msgid "New"
+msgstr "Novo"
+
+#: src/dashboard/templates/common_search.mako:221
+msgid "Player mode"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:228
+#: src/dashboard/templates/common_search.mako:438
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/dashboard/templates/common_search.mako:233
+msgid "Saved Queries"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:251
+#: src/dashboard/templates/common_search.mako:1394
+msgid "Grid"
+msgstr "Grade"
+
+#: src/dashboard/templates/common_search.mako:261
+#: src/dashboard/templates/common_search.mako:943
+msgid "HTML"
+msgstr "HTML"
+
+#: src/dashboard/templates/common_search.mako:270
+msgid "Filter Bar"
+msgstr "Barra do filtro"
+
+#: src/dashboard/templates/common_search.mako:279
+#: src/dashboard/templates/common_search.mako:1461
+msgid "Marker Map"
+msgstr "Marker Map"
+
+#: src/dashboard/templates/common_search.mako:291
+#: src/dashboard/templates/common_search.mako:1422
+msgid "Counter"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:299
+msgid "Text Facet"
+msgstr "Facetas textuais"
+
+#: src/dashboard/templates/common_search.mako:307
+msgid "Value List"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:315
+#: src/dashboard/templates/common_search.mako:323
+msgid "Pie Chart"
+msgstr "Gráfico de pizza"
+
+#: src/dashboard/templates/common_search.mako:332
+#: src/dashboard/templates/common_search.mako:341
+msgid "Bar Chart"
+msgstr "Gráfico de barras"
+
+#: src/dashboard/templates/common_search.mako:349
+#: src/dashboard/templates/common_search.mako:358
+msgid "Tree"
+msgstr "Árvore"
+
+#: src/dashboard/templates/common_search.mako:368
+msgid "Heatmap"
+msgstr "Heatmap"
+
+#: src/dashboard/templates/common_search.mako:376
+#: src/dashboard/templates/common_search.mako:392
+#: src/dashboard/templates/common_search.mako:1449
+msgid "Timeline"
+msgstr "Linha do tempo"
+
+#: src/dashboard/templates/common_search.mako:384
+#: src/dashboard/templates/common_search.mako:400
+#: src/dashboard/templates/common_search.mako:1455
+msgid "Gradient Map"
+msgstr "Gradient Map"
+
+#: src/dashboard/templates/common_search.mako:412
+msgid "Hue logo"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:431
+msgid "This is an empty widget."
+msgstr "Widge vazio."
+
+#: src/dashboard/templates/common_search.mako:443
+#: src/dashboard/templates/common_search.mako:2344
+#: src/dashboard/templates/common_search.mako:2982
+msgid "Type"
+msgstr "Tipo"
+
+#: src/dashboard/templates/common_search.mako:444
+#: src/dashboard/templates/common_search.mako:2345
+msgid "Toggle how to group the values"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:446
+#: src/dashboard/templates/common_search.mako:2347
+msgid "range"
+msgstr "faixa"
+
+#: src/dashboard/templates/common_search.mako:447
+#: src/dashboard/templates/common_search.mako:2348
+#, fuzzy
+msgid "range & up"
+msgstr "faixa"
+
+#: src/dashboard/templates/common_search.mako:448
+#: src/dashboard/templates/common_search.mako:2349
+msgid "field"
+msgstr "campo"
+
+#: src/dashboard/templates/common_search.mako:453
+#: src/dashboard/templates/common_search.mako:945
+#: src/dashboard/templates/common_search.mako:2290
+msgid "Sorting"
+msgstr "Classificando"
+
+#: src/dashboard/templates/common_search.mako:454
+#: src/dashboard/templates/common_search.mako:2291
+msgid "Toggle sort order"
+msgstr "Alternar a ordem classificada"
+
+#: src/dashboard/templates/common_search.mako:456
+#: src/dashboard/templates/common_search.mako:2293
+msgid "descending"
+msgstr "decrescente"
+
+#: src/dashboard/templates/common_search.mako:457
+#: src/dashboard/templates/common_search.mako:2294
+msgid "ascending"
+msgstr "crescente"
+
+#: src/dashboard/templates/common_search.mako:465
+#: src/dashboard/templates/common_search.mako:494
+#: src/dashboard/templates/common_search.mako:557
+#: src/dashboard/templates/common_search.mako:2007
+#: src/dashboard/templates/common_search.mako:2107
+#: src/dashboard/templates/common_search.mako:2302
+#: src/dashboard/templates/common_search.mako:2507
+msgid "Limit"
+msgstr "Limite"
+
+#: src/dashboard/templates/common_search.mako:474
+#: src/dashboard/templates/common_search.mako:566
+#: src/dashboard/templates/common_search.mako:2016
+#: src/dashboard/templates/common_search.mako:2115
+#: src/dashboard/templates/common_search.mako:2516
+msgid "Min Count"
+msgstr "Contagem mín"
+
+#: src/dashboard/templates/common_search.mako:505
+#: src/dashboard/templates/common_search.mako:2568
+msgid "Scope"
+msgstr "Escopo"
+
+#: src/dashboard/templates/common_search.mako:508
+#: src/dashboard/templates/common_search.mako:2571
+msgid "World"
+msgstr "Mundo"
+
+#: src/dashboard/templates/common_search.mako:509
+#: src/dashboard/templates/common_search.mako:2572
+msgid "Europe"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:510
+#: src/dashboard/templates/common_search.mako:2573
+msgid "Australia"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:511
+#: src/dashboard/templates/common_search.mako:2574
+msgid "Brazil"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:512
+#: src/dashboard/templates/common_search.mako:2575
+msgid "Canada"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:513
+#: src/dashboard/templates/common_search.mako:2576
+msgid "China"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:514
+#: src/dashboard/templates/common_search.mako:2577
+#, fuzzy
+msgid "France"
+msgstr "faixa"
+
+#: src/dashboard/templates/common_search.mako:515
+#: src/dashboard/templates/common_search.mako:2578
+msgid "Germany"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:516
+#: src/dashboard/templates/common_search.mako:2579
+#, fuzzy
+msgid "Italy"
+msgstr "Total"
+
+#: src/dashboard/templates/common_search.mako:517
+#: src/dashboard/templates/common_search.mako:2580
+msgid "Japan"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:518
+#: src/dashboard/templates/common_search.mako:2581
+msgid "UK"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:519
+#: src/dashboard/templates/common_search.mako:2582
+msgid "USA"
+msgstr "EUA"
+
+#: src/dashboard/templates/common_search.mako:530
+msgid "Add a dimension"
+msgstr "Adicionar uma dimensão"
+
+#: src/dashboard/templates/common_search.mako:537
+msgid "Field"
+msgstr "Campo"
+
+#: src/dashboard/templates/common_search.mako:547
+msgid "Metric"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:588
+msgid "Domain"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:590
+#, fuzzy
+msgid "Parent"
+msgstr "Atual"
+
+#: src/dashboard/templates/common_search.mako:592
+msgid "Children"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:610
+msgid "Move"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:619
+#: src/dashboard/templates/common_search.mako:2372
+msgid "Add"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:649
+#: src/dashboard/templates/common_search.mako:688
+#: src/dashboard/templates/common_search.mako:710
+#: src/dashboard/templates/common_search.mako:771
+#: src/dashboard/templates/common_search.mako:820
+#: src/dashboard/templates/common_search.mako:842
+#: src/dashboard/templates/common_search.mako:2660
+msgid "Exclude this value"
+msgstr "Excluir este valor"
+
+#: src/dashboard/templates/common_search.mako:668
+#: src/dashboard/templates/common_search.mako:790
+msgid "Show more..."
+msgstr "Exibir mais..."
+
+#: src/dashboard/templates/common_search.mako:673
+#: src/dashboard/templates/common_search.mako:795
+msgid "Show more"
+msgstr "Exibir mais"
+
+#: src/dashboard/templates/common_search.mako:677
+#: src/dashboard/templates/common_search.mako:799
+msgid "less..."
+msgstr "menos..."
+
+#: src/dashboard/templates/common_search.mako:808
+msgid "No results found."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:881
+#: src/dashboard/templates/common_search.mako:1261
+#: src/dashboard/templates/common_search.mako:1318
+#: src/dashboard/templates/common_search.mako:1867
+msgid "Chart Type"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:891
+msgid "x-axis"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:892
+msgid "region"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:893
+#, fuzzy
+msgid "latitude"
+msgstr "Latitude"
+
+#: src/dashboard/templates/common_search.mako:894
+msgid "legend"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:901
+msgid "y-axis"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:902
+#, fuzzy
+msgid "longitude"
+msgstr "Longitude"
+
+#: src/dashboard/templates/common_search.mako:903
+msgid "value"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:916
+#, fuzzy
+msgid "label"
+msgstr "Rótulo"
+
+#: src/dashboard/templates/common_search.mako:924
+#, fuzzy
+msgid "sorting"
+msgstr "Classificando"
+
+#: src/dashboard/templates/common_search.mako:927
+#, fuzzy
+msgid "No sorting"
+msgstr "Classificando"
+
+#: src/dashboard/templates/common_search.mako:928
+#, fuzzy
+msgid "Sort ascending"
+msgstr "crescente"
+
+#: src/dashboard/templates/common_search.mako:929
+#, fuzzy
+msgid "Sort descending"
+msgstr "decrescente"
+
+#: src/dashboard/templates/common_search.mako:942
+msgid "Editor"
+msgstr "Editor"
+
+#: src/dashboard/templates/common_search.mako:944
+msgid "CSS & JS"
+msgstr "CSS e JS"
+
+#: src/dashboard/templates/common_search.mako:955
+#: src/dashboard/templates/common_search.mako:989
+msgid "Available Fields"
+msgstr "Campos disponíveis"
+
+#: src/dashboard/templates/common_search.mako:957
+#: src/dashboard/templates/common_search.mako:991
+msgid "Click on this button to add the field"
+msgstr "Clique neste botão para adicionar o campo"
+
+#: src/dashboard/templates/common_search.mako:961
+#: src/dashboard/templates/common_search.mako:995
+msgid "Available Functions"
+msgstr "Funções disponíveis"
+
+#: src/dashboard/templates/common_search.mako:963
+msgid "Formats date or timestamp in DD-MM-YYYY"
+msgstr "Formata a data ou o carimbo de data e hora em DD-MM-AAAA"
+
+#: src/dashboard/templates/common_search.mako:964
+msgid "Formats date or timestamp in HH:mm:ss"
+msgstr "Formata data ou carimbo de data e hora em HH:mm:ss"
+
+#: src/dashboard/templates/common_search.mako:965
+msgid "Formats date or timestamp in DD-MM-YYYY HH:mm:ss"
+msgstr "Formata a data ou o carimbo de data e hora em DD-MM-AAAA HH:mm:ss"
+
+#: src/dashboard/templates/common_search.mako:966
+#: src/dashboard/templates/common_search.mako:1000
+msgid "Formats a date in the full format"
+msgstr "Formata uma data no formato completo"
+
+#: src/dashboard/templates/common_search.mako:967
+#: src/dashboard/templates/common_search.mako:1001
+msgid "Formats a date as a Unix timestamp"
+msgstr "Formata uma data como um carimbo de data e hora do Unix"
+
+#: src/dashboard/templates/common_search.mako:968
+msgid "Formats a Unix timestamp as Ns, Nmin, Ndays... ago"
+msgstr "Formata um carimbo de data e hora do Unix como Ns, Nmin, Ndays... ago"
+
+#: src/dashboard/templates/common_search.mako:969
+#: src/dashboard/templates/common_search.mako:1003
+msgid "Downloads and embed the file in the browser"
+msgstr "Baixa e incorpora o arquivo no navegador"
+
+#: src/dashboard/templates/common_search.mako:970
+#: src/dashboard/templates/common_search.mako:1004
+msgid "Downloads the linked file"
+msgstr "Baixa o arquivo vinculado"
+
+#: src/dashboard/templates/common_search.mako:971
+#: src/dashboard/templates/common_search.mako:1005
+msgid "Preview file in File Browser"
+msgstr "Visualizar arquivo no Navegador de arquivos"
+
+#: src/dashboard/templates/common_search.mako:972
+#: src/dashboard/templates/common_search.mako:1006
+msgid "Truncate a value after 100 characters"
+msgstr "Truncar um valor com mais de 100 caracteres"
+
+#: src/dashboard/templates/common_search.mako:973
+#: src/dashboard/templates/common_search.mako:1007
+msgid "Truncate a value after 250 characters"
+msgstr "Truncar um valor com mais de 250 caracteres"
+
+#: src/dashboard/templates/common_search.mako:974
+#: src/dashboard/templates/common_search.mako:1008
+msgid "Truncate a value after 500 characters"
+msgstr "Truncar um valor com mais de 500 caracteres"
+
+#: src/dashboard/templates/common_search.mako:976
+#: src/dashboard/templates/common_search.mako:1010
+msgid "Click on this button to add the function"
+msgstr "Clique neste botão para adicionar a função"
+
+#: src/dashboard/templates/common_search.mako:997
+msgid "Formats a date in the DD-MM-YYYY format"
+msgstr "Formata a data no formato DD-MM-AAAA"
+
+#: src/dashboard/templates/common_search.mako:998
+msgid "Formats a date in the HH:mm:ss format"
+msgstr "Formata uma data no formato HH:mm:ss"
+
+#: src/dashboard/templates/common_search.mako:999
+msgid "Formats a date in the DD-MM-YYYY HH:mm:ss format"
+msgstr "Formato uma data no formato DD-MM-AAAA HH:mm:ss"
+
+#: src/dashboard/templates/common_search.mako:1002
+msgid "Shows the relative time"
+msgstr "Mostra o tempo relativo"
+
+#: src/dashboard/templates/common_search.mako:1037
+msgid "Edit template"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1045
+#: src/dashboard/templates/common_search.mako:1561
+msgid "Your search did not match any documents."
+msgstr "Sua pesquisa não encontrou nenhum documento."
+
+#: src/dashboard/templates/common_search.mako:1092
+msgid "Edit this document"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1095
+msgid "Undo changes"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1098
+msgid "Update this document"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1101
+msgid "Show original document"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1138
+msgid "Child Documents"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1171
+#: src/dashboard/templates/common_search.mako:1172
+msgid "Click to sort"
+msgstr "Clique para classificar"
+
+#: src/dashboard/templates/common_search.mako:1175
+msgid "Move to the left"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1178
+msgid "Move to the right"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1188
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/dashboard/templates/common_search.mako:1196
+msgid "Showing"
+msgstr "Exibindo"
+
+#: src/dashboard/templates/common_search.mako:1198
+msgid "to"
+msgstr "até"
+
+#: src/dashboard/templates/common_search.mako:1207
+msgid "of"
+msgstr "de"
+
+#: src/dashboard/templates/common_search.mako:1209
+msgid " results"
+msgstr " Resultados"
+
+#: src/dashboard/templates/common_search.mako:1212
+msgid "Show"
+msgstr "Exibir"
+
+#: src/dashboard/templates/common_search.mako:1216
+msgid "results per page"
+msgstr "resultados por página"
+
+#: src/dashboard/templates/common_search.mako:1220
+msgid "Show similar records based on the selected fields"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1221
+msgid "More like this"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1225
+msgid "Next"
+msgstr "Próximo"
+
+#: src/dashboard/templates/common_search.mako:1252
+#: src/dashboard/templates/common_search.mako:1308
+#: src/dashboard/templates/common_search.mako:1348
+#: src/dashboard/templates/common_search.mako:1856
+#: src/dashboard/templates/common_search.mako:1900
+msgid "Zoom"
+msgstr "Aplicar zoom"
+
+#: src/dashboard/templates/common_search.mako:1256
+#: src/dashboard/templates/common_search.mako:1312
+#: src/dashboard/templates/common_search.mako:1860
+msgid "to selection"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1259
+#: src/dashboard/templates/common_search.mako:1315
+#: src/dashboard/templates/common_search.mako:1349
+#: src/dashboard/templates/common_search.mako:1863
+#: src/dashboard/templates/common_search.mako:1901
+msgid "reset"
+msgstr "redefinir"
+
+#: src/dashboard/templates/common_search.mako:1268
+#: src/dashboard/templates/common_search.mako:3131
+#: src/dashboard/templates/common_search.mako:3145
+#: src/dashboard/templates/common_search.mako:3163
+msgid "Group by"
+msgstr "Grupo de"
+
+#: src/dashboard/templates/common_search.mako:1429
+msgid "Text select"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1436
+#: src/dashboard/templates/common_search.mako:4146
+msgid "Bars"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1442
+msgid "Pie"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1499
+msgid "Download first rows as CSV"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1500
+msgid "CSV"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1504
+msgid "Download first rows as XLS"
+msgstr "Baixar primeiras linhas como XLS"
+
+#: src/dashboard/templates/common_search.mako:1505
+msgid "Excel"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1509
+msgid "Download first rows as JSON"
+msgstr "Baixar primeiras linhas como JSON"
+
+#: src/dashboard/templates/common_search.mako:1510
+msgid "JSON"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1530
+#: src/dashboard/templates/common_search.mako:2737
+msgid "Filter fields"
+msgstr "Campos do filtro"
+
+#: src/dashboard/templates/common_search.mako:1532
+#: src/dashboard/templates/common_search.mako:2948
+msgid "All"
+msgstr "Tudo"
+
+#: src/dashboard/templates/common_search.mako:1532
+msgid "Current"
+msgstr "Atual"
+
+#: src/dashboard/templates/common_search.mako:1536
+msgid "Field Name"
+msgstr "Nome do campo"
+
+#: src/dashboard/templates/common_search.mako:1539
+msgid "No matches."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1576
+msgid "Document"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1605
+msgid "Please select the chart parameters on the left."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:1991
+msgid "Selected dimensions"
+msgstr "Dimensões selecionadas"
+
+#: src/dashboard/templates/common_search.mako:2091
+#: src/dashboard/templates/common_search.mako:2491
+msgid "Selected dimension"
+msgstr "Dimensão selecionada"
+
+#: src/dashboard/templates/common_search.mako:2183
+msgid "Filter"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2190
+#: src/dashboard/templates/common_search.mako:2760
+msgid "Query"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2224
+msgid "Compare"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2231
+msgid "Cohorts"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2242
+msgid "Percentage"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2248
+msgid "Both values"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2278
+#: src/dashboard/templates/common_search.mako:2745
+msgid "Show Details"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2295
+msgid "default"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2332
+msgid "Multi select"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2367
+msgid "Remove"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2383
+msgid "There are currently no filters applied."
+msgstr "No momento, não há filtros aplicados."
+
+#: src/dashboard/templates/common_search.mako:2396
+#: src/dashboard/templates/common_search.mako:2419
+#: src/dashboard/templates/common_search.mako:2458
+msgid "selected"
+msgstr "selecionados"
+
+#: src/dashboard/templates/common_search.mako:2401
+#: src/dashboard/templates/common_search.mako:2436
+msgid "excluded"
+msgstr "excluído"
+
+#: src/dashboard/templates/common_search.mako:2428
+msgid "Until"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2464
+#, fuzzy
+msgid "TO"
+msgstr "até"
+
+#: src/dashboard/templates/common_search.mako:2609
+msgid "Latitude"
+msgstr "Latitude"
+
+#: src/dashboard/templates/common_search.mako:2613
+msgid "Longitude"
+msgstr "Longitude"
+
+#: src/dashboard/templates/common_search.mako:2617
+msgid "Label"
+msgstr "Rótulo"
+
+#: src/dashboard/templates/common_search.mako:2639
+msgid "Prefix filter..."
+msgstr "Filtro de prefixo..."
+
+#: src/dashboard/templates/common_search.mako:2640
+msgid "Field name..."
+msgstr "Nome do campo..."
+
+#: src/dashboard/templates/common_search.mako:2643
+msgid "Terms"
+msgstr "Termos"
+
+#: src/dashboard/templates/common_search.mako:2644
+msgid "Stats"
+msgstr "Stats"
+
+#: src/dashboard/templates/common_search.mako:2651
+msgid "There are no terms to be shown"
+msgstr "Não há nenhum termo a ser mostrado"
+
+#: src/dashboard/templates/common_search.mako:2657
+msgid "Select this value"
+msgstr "Selecionar este valor"
+
+#: src/dashboard/templates/common_search.mako:2677
+msgid "There are no stats to be shown"
+msgstr "Não há nenhuma estatística a ser mostrada"
+
+#: src/dashboard/templates/common_search.mako:2695
+msgid "Not available"
+msgstr "Não disponível"
+
+#: src/dashboard/templates/common_search.mako:2750
+msgid "There are no fields matching your search term."
+msgstr "Não há campos correspondentes ao seu termo de pesquisa."
+
+#: src/dashboard/templates/common_search.mako:2762
+msgid "Search your queries..."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2765
+msgid "Statement"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2767
+msgid "Available statements"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2770
+msgid "Confirm"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2783
+msgid "General settings"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2788
+#: src/dashboard/templates/common_search.mako:2796
+msgid "Solr index"
+msgstr "Índice Solr"
+
+#: src/dashboard/templates/common_search.mako:2825
+msgid "Auto-refresh"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2829
+msgid "every"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2829
+msgid "seconds"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2835
+msgid "Nested documents"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2840
+msgid "Schema"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2866
+msgid "Query definitions"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2868
+msgid "Add current query as..."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2869
+msgid "Click on this button to add the current query as a new definition"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2887
+#, fuzzy
+msgid "There are currently no query definitions."
+msgstr "No momento não há painéis definidas."
+
+#: src/dashboard/templates/common_search.mako:2920
+msgid "Level"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2929
+#: src/dashboard/templates/common_search.mako:2937
+#, fuzzy
+msgid "Time Settings"
+msgstr "Configurações"
+
+#: src/dashboard/templates/common_search.mako:2949
+msgid "Past 5 Minutes"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2950
+msgid "Past 30 Minutes"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2951
+msgid "Past 1 Hour"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2952
+msgid "Past 12 Hours"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2953
+msgid "Past day"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2954
+msgid "Past 2 days"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2955
+msgid "Past 7 days"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2956
+msgid "Past 1 Month"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2957
+msgid "Past 3 Months"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2958
+msgid "Past Year"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2959
+msgid "Past 2 Years"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2960
+msgid "Past 10 Years"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2972
+#, fuzzy
+msgid "Time settings"
+msgstr "Configurações"
+
+#: src/dashboard/templates/common_search.mako:2976
+msgid "Date/time field"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2984
+msgid "Rolling"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:2985
+#, fuzzy
+msgid "Fixed"
+msgstr "campo"
+
+#: src/dashboard/templates/common_search.mako:2989
+msgid "Interval"
+msgstr "Intervalo"
+
+#: src/dashboard/templates/common_search.mako:2995
+msgid "Start date/time"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3001
+msgid "End date/time"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3020
+msgid "Save dashboard as..."
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3035
+msgid "Save"
+msgstr "Salvar"
+
+#: src/dashboard/templates/common_search.mako:3042
+msgid "Nested schema"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3133
+#: src/dashboard/templates/common_search.mako:3147
+#: src/dashboard/templates/common_search.mako:3157
+#: src/dashboard/templates/common_search.mako:3165
+msgid "Unique"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3134
+#, fuzzy
+msgid "Average"
+msgstr "faixa"
+
+#: src/dashboard/templates/common_search.mako:3135
+msgid "Sum"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3136
+#: src/dashboard/templates/common_search.mako:3148
+#: src/dashboard/templates/common_search.mako:3158
+#: src/dashboard/templates/common_search.mako:3166
+msgid "Min"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3137
+#: src/dashboard/templates/common_search.mako:3149
+#: src/dashboard/templates/common_search.mako:3159
+#: src/dashboard/templates/common_search.mako:3167
+msgid "Max"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3138
+#: src/dashboard/templates/common_search.mako:3150
+msgid "Median"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3139
+#: src/dashboard/templates/common_search.mako:3151
+msgid "Percentile"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3140
+msgid "Stddev"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3141
+msgid "Variance"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3142
+#: src/dashboard/templates/common_search.mako:3152
+#: src/dashboard/templates/common_search.mako:3160
+#: src/dashboard/templates/common_search.mako:3168
+msgid "Formula"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3408
+#: src/dashboard/templates/common_search.mako:3480
+msgid "Up"
+msgstr ""
+
+#: src/dashboard/templates/common_search.mako:3408
+#: src/dashboard/templates/common_search.mako:3480
+#, fuzzy
+msgid "Less"
+msgstr "menos..."
+
+#: src/dashboard/templates/common_search.mako:3566
+msgid "Total"
+msgstr "Total"
+
+#: src/dashboard/templates/common_search.mako:4142
+#, fuzzy
+msgid "Lines"
+msgstr "Linha do tempo"
+
+#: src/dashboard/templates/common_search.mako:5441
+msgid ""
+"Result highlighting is unavailable: the collection does not have an index"
+" field"
+msgstr ""
+"O realce de resultados não está disponível: a coleção não tem um campo de"
+" índice"
+
+#: src/dashboard/templates/macros.mako:200
+#, python-format
+msgid "Retweeted %s times"
+msgstr "Retweetado %s vezes"
+
+#: src/dashboard/templates/macros.mako:210
+msgid "Reply"
+msgstr "Responder"
+
+#: src/dashboard/templates/macros.mako:216
+msgid "Retweet"
+msgstr "Retweetar"
+
+#: src/dashboard/templates/no_collections.mako:48
+msgid "It seems there is nothing to search on ..."
+msgstr "Parece que não há nada para pesquisar..."
+
+#: src/dashboard/templates/no_collections.mako:51
+msgid "What about creating a"
+msgstr ""
+
+#: src/dashboard/templates/no_collections.mako:53
+#: src/dashboard/templates/no_collections.mako:55
+#, fuzzy
+msgid "new index"
+msgstr "Índice Solr"
+
+#~ msgid "URL of the Solr Server."
+#~ msgstr "URL do servidor Solr."
+
+#~ msgid "Query sent when no term is entered."
+#~ msgstr "Consulta enviada quando nenhum termo é inserido."
+
+#~ msgid "Whether Solr requires client to perform Kerberos authentication."
+#~ msgstr ""
+#~ "Se o Solr precisa de um cliente"
+#~ " para realizar a autenticação no "
+#~ "Kerberos."
+
+#~ msgid "Permission denied. You are not an Administrator."
+#~ msgstr "Permissão negada. Você não é um Administrador."
+
+#~ msgid "Solr index name pointing to"
+#~ msgstr "Nome do índice Solr apontando para"
+
+#~ msgid "Friendlier name in UI"
+#~ msgstr "Nome mais amigável na IU"
+
+#~ msgid "Collection with cores data"
+#~ msgstr "Coleção com dados de núcleos"
+
+#~ msgid "Solr json"
+#~ msgstr "Solr json"
+
+#~ msgid "Hue properties (e.g. results by pages number)"
+#~ msgstr "Propriedades do Hue (por exemplo, número de resultados por página)"
+
+#~ msgid " (Copy)"
+#~ msgstr " (Copiar)"
+
+#~ msgid "Error while accessing the collection"
+#~ msgstr "Erro ao acessar a coleção"
+
+#~ msgid "A POST request is required."
+#~ msgstr "É necessária uma solicitação POST."
+
+#~ msgid "Solr Index"
+#~ msgstr "Índice Solr"
+
+#~ msgid "Shared"
+#~ msgstr "Compartilhado"
+
+#~ msgid "Click to edit the index"
+#~ msgstr "Clique para editar o índice"
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "... First create a search dashboard with "
+#~ msgstr "... Primeiramente crie um painel de pesquisa com "
+
+#~ msgid "... or create a search index with "
+#~ msgstr "... ou crie um índice de pesquisa com "
+
+#~ msgid "Indexer"
+#~ msgstr "Indexador"
+
+#~ msgid "Select a search index"
+#~ msgstr "Selecione um índice de pesquisa"
+
+#~ msgid "Toggle range or field facet"
+#~ msgstr "Alternar faixas ou facetas do campo"
+
+#~ msgid "Choose..."
+#~ msgstr "Escolher..."
+
+#~ msgid "Click to analyse field"
+#~ msgstr "Clique para analisar o campo"
+
+#~ msgid "Download first rows as CSV"
+#~ msgstr "Baixar primeiras linhas como CSV"
+
+#~ msgid "Click to zoom, double click to select"
+#~ msgstr "Clique para aplicar zoom, clique duas vezes para selecionar"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "Share this dashboard"
+#~ msgstr "Compartilhar este painel"
+
+#~ msgid ""
+#~ "The following URL will show the "
+#~ "current dashboard and the applied "
+#~ "filters."
+#~ msgstr "A URL a seguir mostrará o painel atual e os filtros aplicados."
+
+#~ msgid "Close"
+#~ msgstr "Fechar"
+
+#~ msgid "Visible to everybody"
+#~ msgstr "Visível para todos"
+
+#~ msgid " field analysis"
+#~ msgstr " análise de campo"
+
+#~ msgid "The current collection must be saved to be shared."
+#~ msgstr "Para compartilhar a coleção, é necessário salvá-la."
+
+#~ msgid "The current collection cannot be shared."
+#~ msgstr "A coleção atual não pode ser compartilhada."
+
+#~ msgid "index (Solr)"
+#~ msgstr ""
+
+#~ msgid "table (%s)"
+#~ msgstr ""
+
+#~ msgid "General Settings"
+#~ msgstr ""
+
+#~ msgid "Query Definitions"
+#~ msgstr ""
+
+#~ msgid "Select one"
+#~ msgstr "selecionados"
+
+#~ msgid "index"
+#~ msgstr "Índice Solr"
+
+#~ msgid "Show cores"
+#~ msgstr "Exibir núcleos"
+
+#~ msgid "Search"
+#~ msgstr "Pesquisar"
+
+#~ msgid "Chart"
+#~ msgstr "Compartilhar"
+
+#~ msgid "Line Chart"
+#~ msgstr "Gráfico de linhas"
+
+#~ msgid "Add formula operation"
+#~ msgstr ""
+
+#~ msgid "Autocomplete"
+#~ msgstr ""
+
+#~ msgid "Dictionary"
+#~ msgstr "Editor"
+
+#~ msgid "Dictionary name or blank for default"
+#~ msgstr ""
+
+#~ msgid "Click on this button to add the currenty query as a new definition"
+#~ msgstr "Clique neste botão para adicionar a função"
+
+#~ msgid "Auto-refresh every"
+#~ msgstr ""
+
+#~ msgid "Count"
+#~ msgstr ""
+
+#~ msgid "Unique Count"
+#~ msgstr ""
+
+#~ msgid "Percentiles"
+#~ msgstr "Propriedades"
+
+#~ msgid "Multiply"
+#~ msgstr ""
+
+#~ msgid "Substract"
+#~ msgstr ""
+
+#~ msgid "Substract dates"
+#~ msgstr ""
+

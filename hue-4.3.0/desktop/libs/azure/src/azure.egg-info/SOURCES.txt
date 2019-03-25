@@ -1,0 +1,13 @@
+setup.py
+src/azure/__init__.py
+src/azure/active_directory.py
+src/azure/client.py
+src/azure/conf.py
+src/azure.egg-info/PKG-INFO
+src/azure.egg-info/SOURCES.txt
+src/azure.egg-info/dependency_links.txt
+src/azure.egg-info/entry_points.txt
+src/azure.egg-info/requires.txt
+src/azure.egg-info/top_level.txt
+src/azure/adls/__init__.py
+src/azure/adls/webhdfs.py

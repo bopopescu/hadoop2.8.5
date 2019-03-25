@@ -1,0 +1,312 @@
+# French translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/metadata/catalog_api.py:432
+msgid ""
+"update_properties requires an 'id' parameter and 'keys' parameter that is"
+" a non-empty list"
+msgstr ""
+"update_properties requiert un paramètre 'id' et un paramètre 'keys' "
+"constitué d'une liste non vide"
+
+#: src/metadata/conf.py:91
+msgid "Configuration options for Optimizer API"
+msgstr "Options de configuration pour l'API Optimizer"
+
+#: src/metadata/conf.py:95
+msgid "Hostname to Optimizer API or compatible service."
+msgstr "Nom d'hôte de l'API Optimizer ou du service compatible."
+
+#: src/metadata/conf.py:100 src/metadata/conf.py:191
+msgid "The name of the key of the service."
+msgstr "Nom de la clé du service."
+
+#: src/metadata/conf.py:105 src/metadata/conf.py:196
+msgid "The private part of the key associated with the auth_key."
+msgstr "Partie privée de la clé associée à auth_key."
+
+#: src/metadata/conf.py:110
+msgid ""
+"Execute this script to produce the auth_key secret. This will be used "
+"when `auth_key_secret` is not set."
+msgstr ""
+"Exécutez ce script pour produire le secret auth_key. Cela sera utilisé si"
+" « auth_key_secret » n’est pas défini."
+
+#: src/metadata/conf.py:116
+msgid ""
+"The name of the workload where queries are uploaded and optimizations are"
+" calculated from. Automatically guessed from auth_key and cluster_id if "
+"not specified."
+msgstr ""
+"Nom de la charge de travail dans laquelle les requêtes sont chargées et à"
+" partir de laquelle les optimisations sont calculées. Déterminé "
+"automatiquement à partir de auth_key et cluster_id si n'est pas spécifié."
+
+#: src/metadata/conf.py:121
+msgid ""
+"The name of the cluster used to determine the tenant id when this one is "
+"not specified. Defaults to the cluster Id or 'default'."
+msgstr ""
+"Nom du cluster utilisé pour déterminer l’ID de locataire lorsque celui-ci"
+" n’est pas spécifié. Utilise par défaut l’ID de cluster ou « default »."
+
+#: src/metadata/conf.py:127 src/metadata/conf.py:337
+msgid ""
+"Perform Sentry privilege filtering. Default to true automatically if the "
+"cluster is secure."
+msgstr ""
+"Effectuez le filtrage des privilèges Sentry. La valeur par défaut True "
+"est automatiquement appliquée si le cluster est sécurisé."
+
+#: src/metadata/conf.py:134
+msgid ""
+"The cache TTL in milliseconds for the assist/autocomplete/etc calls. Set "
+"to 0 to disable the cache."
+msgstr ""
+"TTL du cache, en millisecondes, pour les appels assist/autocomplete/etc. "
+"Réglez-le sur 0 pour désactiver le cache."
+
+#: src/metadata/conf.py:138
+msgid ""
+"Automatically upload queries after their execution in order to improve "
+"recommendations."
+msgstr ""
+"Charger automatiquement les requêtes après leur exécution pour améliorer "
+"les recommandations."
+
+#: src/metadata/conf.py:144
+msgid ""
+"Automatically upload queried tables DDL in order to improve "
+"recommendations."
+msgstr ""
+"Chargez automatiquement les DDL des tables pour améliorer les "
+"recommandations."
+
+#: src/metadata/conf.py:150
+msgid ""
+"Automatically upload queried tables and columns stats in order to improve"
+" recommendations."
+msgstr ""
+"Chargez automatiquement les tables interrogées et les statistiques de "
+"colonnes pour améliorer les recommandations."
+
+#: src/metadata/conf.py:156
+msgid ""
+"Allow admins to upload the last N executed queries in the quick start "
+"wizard. Use 0 to disable."
+msgstr ""
+"Autoriser les administrateurs à charger les N dernières requêtes "
+"exécutées dans l’assistant de démarrage rapide. Utilisez la valeur 0 pour"
+" désactiver cette option."
+
+#: src/metadata/conf.py:166
+msgid "Configuration options for Altus API"
+msgstr ""
+
+#: src/metadata/conf.py:170
+msgid "Hostname prefix to Altus API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:174
+msgid "Hostname prefix to Altus ADB API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:178
+msgid "Hostname prefix to Altus DE API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:182
+msgid "Hostname prefix to Altus WA API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:186
+msgid "Switch to turn on workload analytics insights."
+msgstr ""
+
+#: src/metadata/conf.py:204
+msgid "Configuration options for Kubernetes API"
+msgstr ""
+
+#: src/metadata/conf.py:208
+msgid "API URL to Kubernetes API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:215
+msgid "Public key used for cluster creation."
+msgstr ""
+
+#: src/metadata/conf.py:271
+msgid "Configuration options for Navigator API"
+msgstr "Options de configuration pour l'API de navigateur"
+
+#: src/metadata/conf.py:275
+msgid "Base URL to Navigator API."
+msgstr "URL de base vers l'API de navigateur."
+
+#: src/metadata/conf.py:279
+msgid "Which authentication to use: CM or external via LDAP or SAML."
+msgstr "Authentification à utiliser : CM ou externe via LDAP ou SAML."
+
+#: src/metadata/conf.py:284
+msgid "Username of the CM user used for authentication."
+msgstr "Nom de l’utilisateur CM utilisé pour l’authentification."
+
+#: src/metadata/conf.py:288
+msgid "CM password of the user used for authentication."
+msgstr "Mot de passe CM de l’utilisateur utilisé pour l’authentification."
+
+#: src/metadata/conf.py:293
+msgid ""
+"Execute this script to produce the CM password. This will be used when "
+"the plain password is not set."
+msgstr ""
+"Exécutez ce script pour générer le mot de passe CM. Il sera utilisé si le"
+" mot de passe normal n'est pas défini."
+
+#: src/metadata/conf.py:300
+msgid "Username of the LDAP user used for authentication."
+msgstr "Nom de l’utilisateur LDAP utilisé pour l’authentification."
+
+#: src/metadata/conf.py:304
+msgid "LDAP password of the user used for authentication."
+msgstr "Mot de passe LDAP de l’utilisateur utilisé pour l’authentification."
+
+#: src/metadata/conf.py:309
+msgid ""
+"Execute this script to produce the LDAP password. This will be used when "
+"the plain password is not set."
+msgstr ""
+"Exécutez ce script pour générer le mot de passe LDAP. Il sera utilisé si "
+"le mot de passe normal n'est pas défini."
+
+#: src/metadata/conf.py:316
+msgid "Username of the SAML user used for authentication."
+msgstr "Nom de l’utilisateur SAML utilisé pour l’authentification."
+
+#: src/metadata/conf.py:320
+msgid "SAML password of the user used for authentication."
+msgstr "Mot de passe SAML de l’utilisateur utilisé pour l’authentification."
+
+#: src/metadata/conf.py:325
+msgid ""
+"Execute this script to produce the SAML password. This will be used when "
+"the plain password  is not set."
+msgstr ""
+"Exécutez ce script pour générer le mot de passe SAML. Il sera utilisé si "
+"le mot de passe normal n'est pas défini."
+
+#: src/metadata/conf.py:332
+msgid ""
+"Navigator configuration directory, where navigator.client.properties is "
+"located."
+msgstr ""
+"Répertoire de configuration du navigateur, dans lequel se trouve "
+"navigator.client.properties."
+
+#: src/metadata/conf.py:343
+msgid "Max number of items to fetch in one call in object search."
+msgstr ""
+"Nombre maximal d'éléments à récupérer lors d'un appel de recherche "
+"d'objets."
+
+#: src/metadata/conf.py:349
+msgid "Max number of items to fetch in one call in object search autocomplete."
+msgstr ""
+"Nombre maximal d'éléments à récupérer lors d'un appel de remplissage "
+"automatique de recherche d'objets."
+
+#: src/metadata/conf.py:356
+msgid "Enable to search HDFS, S3 files."
+msgstr "Activez cette option pour rechercher des fichiers S3 HDFS."
+
+#: src/metadata/conf.py:366
+msgid "Configuration options for Manager API"
+msgstr ""
+
+#: src/metadata/conf.py:370
+msgid "Base URL to API."
+msgstr ""
+
+#: src/metadata/catalog/base.py:38 src/metadata/catalog/base.py:49
+#: src/metadata/catalog/base.py:60 src/metadata/manager_client.py:39
+#: src/metadata/optimizer_client.py:52
+msgid "No error message, please check the logs."
+msgstr "Aucun message d'erreur. Consultez les fichiers journaux."
+
+#: src/metadata/optimizer_api.py:352
+msgid "Query history upload requires Admin privileges or feature is disabled."
+msgstr ""
+"Le chargement de l’historique des requêtes nécessite des privilèges "
+"d’administrateur ou la fonctionnalité est désactivée."
+
+#: src/metadata/optimizer_api.py:377
+msgid "Skipped as task query"
+msgstr "Ignoré, car il s'agit d'une requête relative à une tâche"
+
+#: src/metadata/optimizer_api.py:379
+msgid "Skipped"
+msgstr "Ignoré"
+
+#: src/metadata/optimizer_client.py:177
+msgid "Error while accessing Optimizer"
+msgstr "Erreur lors de l'accès à Optimizer"
+
+#: src/metadata/optimizer_client.py:236
+msgid "Call not supported"
+msgstr "Appel non pris en charge"
+
+#: src/metadata/optimizer_client.py:407
+#, python-format
+msgid "Could not get tenant id from cluster id %s: %s"
+msgstr "Impossible d'obtenir l'ID de locataire à partir de l'ID de cluster %s : %s"
+
+#: src/metadata/catalog/base.py:33
+#, python-format
+msgid "Catalog connector interface not recognized: %s"
+msgstr ""
+
+#: src/metadata/catalog/navigator_client.py:279
+#: src/metadata/catalog/navigator_client.py:359
+msgid "Failed to authenticate."
+msgstr "Echec de l’authentification."
+
+#~ msgid ""
+#~ "add_tags requires an 'id' parameter and"
+#~ " 'tags' parameter that is a non-"
+#~ "empty list of tags"
+#~ msgstr ""
+#~ "add_tags requiert un paramètre 'id' et"
+#~ " un paramètre 'tags' constitué d'une "
+#~ "liste d'étiquettes non vide"
+
+#~ msgid ""
+#~ "update_properties requires an 'id' parameter"
+#~ " and 'properties' or 'metadata' parameters"
+#~ " that are non-empty dicts"
+#~ msgstr ""
+#~ "update_properties requiert un paramètre 'id'"
+#~ " et des paramètres 'properties' ou "
+#~ "'metadata' constitués d'un dictionnaire non"
+#~ " vide"
+
+#~ msgid "Error accessing"
+#~ msgstr "Erreur d'accès"
+

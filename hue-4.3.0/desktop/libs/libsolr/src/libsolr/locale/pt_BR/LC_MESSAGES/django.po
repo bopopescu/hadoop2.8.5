@@ -1,0 +1,62 @@
+# Portuguese (Brazil) translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSÃO DO PROJETO\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: NOME COMPLETO <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/libsolr/api.py:373 src/libsolr/api.py:385 src/libsolr/api.py:396
+#: src/libsolr/api.py:407 src/libsolr/api.py:418 src/libsolr/api.py:432
+#: src/libsolr/api.py:451 src/libsolr/api.py:463 src/libsolr/api.py:478
+#: src/libsolr/api.py:504 src/libsolr/api.py:516 src/libsolr/api.py:530
+#: src/libsolr/api.py:553 src/libsolr/api.py:571 src/libsolr/api.py:588
+#: src/libsolr/api.py:607 src/libsolr/api.py:627 src/libsolr/api.py:637
+#: src/libsolr/api.py:647 src/libsolr/api.py:658 src/libsolr/api.py:669
+#: src/libsolr/api.py:682 src/libsolr/api.py:692 src/libsolr/api.py:711
+#: src/libsolr/api.py:733 src/libsolr/api.py:749 src/libsolr/api.py:761
+#: src/libsolr/api.py:780 src/libsolr/api.py:792 src/libsolr/api.py:807
+#: src/libsolr/api.py:845 src/libsolr/api.py:867 src/libsolr/api.py:886
+#: src/libsolr/api.py:1089
+msgid "Error while accessing Solr"
+msgstr "Erro ao acessar Solr"
+
+#: src/libsolr/api.py:500
+#, python-format
+msgid "Collection could not be created: %(failure)s"
+msgstr ""
+
+#: src/libsolr/api.py:567
+#, python-format
+msgid "Could not create or edit alias: %s"
+msgstr ""
+
+#: src/libsolr/api.py:584
+#, python-format
+msgid ""
+"Could not delete alias. Check response:\n"
+"%s"
+msgstr ""
+
+#: src/libsolr/conf.py:33
+msgid ""
+"In secure mode (HTTPS), if Solr SSL certificates have to be verified "
+"against certificate authority"
+msgstr ""
+
+#: src/libsolr/conf.py:55
+msgid "Default path to Solr in ZooKeeper"
+msgstr ""
+

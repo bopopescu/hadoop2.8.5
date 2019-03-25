@@ -1,0 +1,791 @@
+# German translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/metastore/conf.py:25
+msgid "Flag to turn on the new version of the create table wizard."
+msgstr ""
+"Markierung, um die neue Version des Assistenten zum Erstellen der Tabelle"
+" zu aktivieren."
+
+#: src/metastore/conf.py:32
+msgid ""
+"Flag to force all metadata calls (e.g. list tables, table or column "
+"details...) to happen via HiveServer2 if available instead of Impala."
+msgstr ""
+"Markierung, um zu erzwingen, dass alle Metadatenaufrufe (z. B. "
+"Tabellenlisten, Tabelle oder Spaltendetails...) über HiveServer2 "
+"erfolgen, falls verfügbar, anstatt von Impala."
+
+#: src/metastore/forms.py:45
+msgid "Path"
+msgstr "Pfad"
+
+#: src/metastore/forms.py:46
+msgid "Overwrite?"
+msgstr "Überschreiben?"
+
+#: src/metastore/forms.py:60
+#, python-format
+msgid "%(column_name)s (partition key with type %(column_type)s)"
+msgstr "%(column_name)s (Partitionsschlüssel mit Typ %(column_type)s)"
+
+#: src/metastore/views.py:60
+msgid "You are not allowed to modify the metastore."
+msgstr "Sie sind nicht berechtigt, den Metastore zu verändern."
+
+#: src/metastore/views.py:60
+msgid "You have must have metastore:write permissions"
+msgstr "Sie müssen über die Berechtigungen metastore:write verfügen"
+
+#: src/metastore/views.py:113
+#, python-format
+msgid "Drop database %s"
+msgstr "Datenbank %s ablegen"
+
+#: src/metastore/views.py:132
+#, python-format
+msgid "Failed to remove %(databases)s.  Error: %(error)s"
+msgstr "%(databases)s konnten nicht entfernt werden. Fehler: %(error)s"
+
+#: src/metastore/views.py:133 src/metastore/views.py:288
+#: src/metastore/views.py:447 src/metastore/views.py:671
+msgid "DB Error"
+msgstr "Datenbankfehler"
+
+#: src/metastore/views.py:135
+msgid "Do you really want to delete the database(s)?"
+msgstr "Möchten Sie die Datenbank(en) wirklich löschen?"
+
+#: src/metastore/views.py:151
+msgid "Alter database requires a properties value of key-value pairs."
+msgstr ""
+"Zum Ändern der Datenbank ist ein Eigenschaftswert mit Schlüssel-Wert-"
+"Paaren erforderlich."
+
+#: src/metastore/views.py:162
+#, python-format
+msgid "Failed to alter database `%s`: %s"
+msgstr "Datenbank `%s` konnte nicht geändert werden: %s"
+
+#: src/metastore/views.py:181
+#, python-format
+msgid "Cannot get metadata for database %s: %s"
+msgstr "Metadaten für Datenbank %s konnten nicht abgerufen werden: %s"
+
+#: src/metastore/views.py:197
+#, python-format
+msgid "Cannot get queries related to table %s.%s: %s"
+msgstr "Abfragen für Tabelle %s.%s können nicht abgerufen werden: %s"
+
+#: src/metastore/views.py:230
+#, python-format
+msgid "Failed to retrieve tables for database: %s"
+msgstr "Tabellen für Datenbank konnten nicht abgerufen werden: %s"
+
+#: src/metastore/views.py:366
+#, python-format
+msgid "Failed to alter table `%s`.`%s`: %s"
+msgstr "Tabelle \"%s\".\"%s\" konnte nicht geändert werden: %s"
+
+#: src/metastore/views.py:383
+msgid "alter_column requires a column parameter"
+msgstr "\"alter_column\" erfordert einen Parameter \"column\""
+
+#: src/metastore/views.py:401
+#, python-format
+msgid "Column `%s`.`%s` `%s` not found"
+msgstr "Spalte \"%s\".\"%s\" \"%s\" nicht gefunden"
+
+#: src/metastore/views.py:404
+#, python-format
+msgid "Failed to alter column `%s`.`%s` `%s`: %s"
+msgstr "Spalte \"%s\".\"%s\" \"%s\" konnte nicht geändert werden: %s"
+
+#: src/metastore/views.py:426
+#, python-format
+msgid "Drop table %s"
+msgstr "Tabelle %s ablegen"
+
+#: src/metastore/views.py:446
+#, python-format
+msgid "Failed to remove %(tables)s.  Error: %(error)s"
+msgstr "%(tables)s konnten nicht entfernt werden. Fehler: %(error)s"
+
+#: src/metastore/views.py:449
+msgid "Do you really want to delete the table(s)?"
+msgstr "Möchten Sie die Tabelle(n) wirklich löschen?"
+
+#: src/metastore/views.py:464
+msgid "Cannot read table"
+msgstr "Tabelle kann nicht gelesen werden"
+
+#: src/metastore/views.py:492
+#, python-format
+msgid "Load data in %s.%s"
+msgstr "Daten in %s laden.%s"
+
+#: src/metastore/views.py:509 src/metastore/views.py:512
+msgid "Can't load the data: "
+msgstr "Daten können nicht geladen werden: "
+
+#: src/metastore/views.py:534
+#, python-format
+msgid "Table '%(table)s' is not partitioned."
+msgstr "Tabelle '%(table)s' ist nicht partitioniert."
+
+#: src/metastore/views.py:623
+msgid "Cannot browse partition"
+msgstr "Partition kann nicht durchsucht werden"
+
+#: src/metastore/views.py:635
+msgid "Cannot read partition"
+msgstr "Partition kann nicht gelesen werden"
+
+#: src/metastore/views.py:652
+#, python-format
+msgid "Drop partition %s"
+msgstr "Partition %s ablegen"
+
+#: src/metastore/views.py:670
+#, python-format
+msgid "Failed to remove %(partition)s.  Error: %(error)s"
+msgstr "%(partition)s konnte nicht entfernt werden. Fehler: %(error)s"
+
+#: src/metastore/views.py:673
+msgid "Do you really want to delete the partition(s)?"
+msgstr "Möchten Sie die Partition(en) wirklich löschen?"
+
+#: src/metastore/templates/components.mako:29
+msgid "Metastore icon"
+msgstr "Metastore-Symbol"
+
+#: src/metastore/templates/components.mako:30
+msgid "Table Browser"
+msgstr "Tabellen-Browser"
+
+#: src/metastore/templates/components.mako:30
+msgid "Metastore Manager"
+msgstr "Metastore Manager"
+
+#: src/metastore/templates/components.mako:49
+#: src/metastore/templates/metastore.mako:97
+msgid "Databases"
+msgstr "Datenbanken"
+
+#: src/metastore/templates/confirm.mako:24
+#: src/metastore/templates/metastore.mako:368
+#: src/metastore/templates/metastore.mako:557
+#: src/metastore/templates/metastore.mako:673
+#: src/metastore/templates/metastore.mako:1076
+#: src/metastore/templates/popups/load_data.mako:25
+msgid "Close"
+msgstr "Schließen"
+
+#: src/metastore/templates/confirm.mako:25
+#: src/metastore/templates/metastore.mako:674
+msgid "Confirm action"
+msgstr "Aktion bestätigen"
+
+#: src/metastore/templates/confirm.mako:33
+#: src/metastore/templates/metastore.mako:381
+#: src/metastore/templates/metastore.mako:577
+#: src/metastore/templates/metastore.mako:678
+msgid "Yes"
+msgstr "Ja"
+
+#: src/metastore/templates/confirm.mako:34
+#: src/metastore/templates/metastore.mako:380
+#: src/metastore/templates/metastore.mako:576
+#: src/metastore/templates/metastore.mako:1084
+msgid "No"
+msgstr "Nein"
+
+#: src/metastore/templates/metastore.mako:42
+msgid "Metastore"
+msgstr "Metastore"
+
+#: src/metastore/templates/metastore.mako:113
+msgid "Edit path"
+msgstr "Pfad bearbeiten"
+
+#: src/metastore/templates/metastore.mako:136
+msgid "Name"
+msgstr "Name"
+
+#: src/metastore/templates/metastore.mako:137
+msgid "Type"
+msgstr "Typ"
+
+#: src/metastore/templates/metastore.mako:166
+msgid "Values"
+msgstr "Werte"
+
+#: src/metastore/templates/metastore.mako:167
+msgid "Spec"
+msgstr "Spezifikationen"
+
+#: src/metastore/templates/metastore.mako:168
+msgid "Browse"
+msgstr "Durchsuchen"
+
+#: src/metastore/templates/metastore.mako:182
+msgid "Query partition data"
+msgstr "Partitionsdaten abfragen"
+
+#: src/metastore/templates/metastore.mako:193
+#: src/metastore/templates/metastore.mako:198
+msgid "Browse partition files"
+msgstr "Partitionsdateien durchsuchen"
+
+#: src/metastore/templates/metastore.mako:194
+#: src/metastore/templates/metastore.mako:198
+#: src/metastore/templates/metastore.mako:311
+msgid "Files"
+msgstr "Dateien"
+
+#: src/metastore/templates/metastore.mako:234
+msgid "Did you know?"
+msgstr "Wussten Sie schon?"
+
+#: src/metastore/templates/metastore.mako:236
+msgid ""
+"If the sample contains a large number of columns, click a row to select a"
+" column to jump to"
+msgstr ""
+"Wenn das Beispiel viele Spalten enthält, klicken Sie auf eine Zeile, um "
+"eine Spalte auszuwählen, in die Sie wechseln möchten."
+
+#: src/metastore/templates/metastore.mako:243
+#: src/metastore/templates/metastore.mako:487
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#: src/metastore/templates/metastore.mako:247
+#: src/metastore/templates/metastore.mako:522
+msgid "View"
+msgstr "Ansicht"
+
+#: src/metastore/templates/metastore.mako:252
+msgid "Partitioned"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:255
+#: src/metastore/templates/metastore.mako:871
+msgid "Table"
+msgstr "Tabelle"
+
+#: src/metastore/templates/metastore.mako:261
+msgid "Managed"
+msgstr "Verwaltet"
+
+#: src/metastore/templates/metastore.mako:264
+msgid "External"
+msgstr "Extern"
+
+#: src/metastore/templates/metastore.mako:266
+msgid "and stored in"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:268
+msgid "Kudu"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:273
+#: src/metastore/templates/metastore.mako:275
+msgid "location"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:282
+msgid "Created by"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:284
+msgid "on"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:294
+msgid "Stats"
+msgstr "Statistiken"
+
+#: src/metastore/templates/metastore.mako:304
+msgid "The column stats for this table are not accurate"
+msgstr "Die Spaltenstatistiken für diese Tabelle sind nicht genau"
+
+#: src/metastore/templates/metastore.mako:317
+msgid "Rows"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:323
+msgid "Total size"
+msgstr "Gesamtgröße"
+
+#: src/metastore/templates/metastore.mako:329
+msgid "Data last updated on"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:335
+msgid "Schema last modified on"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:337
+msgid "by"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:351
+msgid "Drop the selected databases"
+msgstr "Ausgewählte Datenbanken ablegen"
+
+#: src/metastore/templates/metastore.mako:351
+#: src/metastore/templates/metastore.mako:527
+#: src/metastore/templates/metastore.mako:1028
+msgid "Drop"
+msgstr "Ablegen"
+
+#: src/metastore/templates/metastore.mako:369
+msgid "Do you really want to delete the following database(s)?"
+msgstr "Möchten Sie die folgende(n) Datenbank(en) wirklich löschen?"
+
+#: src/metastore/templates/metastore.mako:379
+msgid "Warning: This will drop all tables and objects within the database."
+msgstr ""
+"Warnung: Hiermit werden alle Tabellen und Objekte innerhalb der Datenbank"
+" abgelegt."
+
+#: src/metastore/templates/metastore.mako:390
+#: src/metastore/templates/metastore.mako:392
+#: src/metastore/templates/metastore.mako:394
+msgid "Create a new database"
+msgstr "Neue Datenbank erstellen"
+
+#: src/metastore/templates/metastore.mako:390
+#: src/metastore/templates/metastore.mako:392
+#: src/metastore/templates/metastore.mako:394
+#: src/metastore/templates/metastore.mako:529
+#: src/metastore/templates/metastore.mako:531
+msgid "New"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:425
+#: src/metastore/templates/metastore.mako:451
+msgid "Add a description..."
+msgstr "Beschreibung hinzufügen..."
+
+#: src/metastore/templates/metastore.mako:490
+msgid "Owner"
+msgstr "Eigentümer"
+
+#: src/metastore/templates/metastore.mako:494
+#: src/metastore/templates/metastore.mako:497
+#: src/metastore/templates/metastore.mako:499
+msgid "Location"
+msgstr "Speicherort"
+
+#: src/metastore/templates/metastore.mako:508
+msgid "Parameters"
+msgstr "Parameter"
+
+#: src/metastore/templates/metastore.mako:520
+msgid "Tables"
+msgstr "Tabellen"
+
+#: src/metastore/templates/metastore.mako:522
+msgid "Browse the selected table"
+msgstr "Ausgewählte Tabelle durchsuchen"
+
+#: src/metastore/templates/metastore.mako:523
+msgid "Query the selected table"
+msgstr "Ausgewählte Tabelle abfragen"
+
+#: src/metastore/templates/metastore.mako:524
+#: src/metastore/templates/metastore.mako:811
+#: src/metastore/templates/metastore.mako:1016
+#: src/metastore/templates/metastore.mako:1019
+msgid "Query"
+msgstr "Abfrage"
+
+#: src/metastore/templates/metastore.mako:527
+msgid "Drop the selected tables"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:529
+#: src/metastore/templates/metastore.mako:531
+msgid "Create a new table"
+msgstr "Neue Tabelle erstellen"
+
+#: src/metastore/templates/metastore.mako:533
+msgid "Create a new table from a file"
+msgstr "Eine neue Tabelle aus einer Datei erstellen"
+
+#: src/metastore/templates/metastore.mako:533
+msgid "New from file"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:534
+msgid "Create a new table manually"
+msgstr "Eine neue Tabelle manuell erstellen"
+
+#: src/metastore/templates/metastore.mako:534
+msgid "New manually"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:558
+msgid "Do you really want to drop the selected table(s)?"
+msgstr "Möchten Sie die ausgewählten Tabellen wirklich ablegen?"
+
+#: src/metastore/templates/metastore.mako:569
+msgid "and"
+msgstr "und"
+
+#: src/metastore/templates/metastore.mako:569
+msgid "others"
+msgstr "andere"
+
+#: src/metastore/templates/metastore.mako:572
+msgid "Skip the trash"
+msgstr "Papierkorb überspringen"
+
+#: src/metastore/templates/metastore.mako:607
+msgid "Schema"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:615
+msgid "Columns"
+msgstr "Spalten"
+
+#: src/metastore/templates/metastore.mako:619
+#: src/metastore/templates/metastore.mako:922
+msgid "Partitions"
+msgstr "Partitionen"
+
+#: src/metastore/templates/metastore.mako:631
+msgid "Value to filter..."
+msgstr "Zu filternder Wert..."
+
+#: src/metastore/templates/metastore.mako:636
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/metastore/templates/metastore.mako:638
+msgid "Sort Desc"
+msgstr "Absteigend sortieren"
+
+#: src/metastore/templates/metastore.mako:639
+msgid "Filter"
+msgstr "Filter"
+
+#: src/metastore/templates/metastore.mako:643
+msgid "Add a filter"
+msgstr "Filter hinzufügen"
+
+#: src/metastore/templates/metastore.mako:650
+msgid "Delete the selected partitions"
+msgstr "Ausgewählte Partitionen löschen"
+
+#: src/metastore/templates/metastore.mako:650
+msgid "Drop partition(s)"
+msgstr "Partition(en) ablegen"
+
+#: src/metastore/templates/metastore.mako:656
+msgid "The partition does not contain any values"
+msgstr "Die Partition enthält keine Werte"
+
+#: src/metastore/templates/metastore.mako:677
+#: src/metastore/templates/popups/load_data.mako:63
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/metastore/templates/metastore.mako:696
+msgid "The view does not contain any data."
+msgstr "Die Ansicht enthält keine Daten."
+
+#: src/metastore/templates/metastore.mako:697
+msgid "The table does not contain any data."
+msgstr "Die Tabelle enthält keine Daten."
+
+#: src/metastore/templates/metastore.mako:808
+msgid "Id"
+msgstr "ID"
+
+#: src/metastore/templates/metastore.mako:809
+msgid "Popularity"
+msgstr "Beliebtheit"
+
+#: src/metastore/templates/metastore.mako:810
+msgid "Character"
+msgstr "Zeichen"
+
+#: src/metastore/templates/metastore.mako:812
+msgid "Complexity"
+msgstr "Komplexität"
+
+#: src/metastore/templates/metastore.mako:813
+msgid "Hive Compatible"
+msgstr "Mit Hive kompatibel"
+
+#: src/metastore/templates/metastore.mako:814
+msgid "Impala Compatible"
+msgstr "Mit Impala kompatibel"
+
+#: src/metastore/templates/metastore.mako:832
+msgid "No queries found for the current table."
+msgstr "Keine Abfragen für die aktuelle Tabelle gefunden."
+
+#: src/metastore/templates/metastore.mako:872
+msgid "Foreign keys"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:878
+msgid "No related tables found."
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:910
+msgid "Overview"
+msgstr "Übersicht"
+
+#: src/metastore/templates/metastore.mako:912
+msgid "Relationships"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:924
+msgid "Sample"
+msgstr "Beispiel"
+
+#: src/metastore/templates/metastore.mako:926
+msgid "View SQL"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:928
+msgid "Details"
+msgstr "Details"
+
+#: src/metastore/templates/metastore.mako:929
+msgid "Privileges"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:975
+#: src/metastore/templates/metastore.mako:985
+msgid "Toggle Assist"
+msgstr "Hilfe umschalten"
+
+#: src/metastore/templates/metastore.mako:1022
+msgid "Browse Data"
+msgstr "Daten durchsuchen"
+
+#: src/metastore/templates/metastore.mako:1025
+#: src/metastore/templates/popups/load_data.mako:26
+msgid "Import Data"
+msgstr "Daten importieren"
+
+#: src/metastore/templates/metastore.mako:1025
+msgid "Import"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:1028
+msgid "Drop View"
+msgstr "Ansicht ablegen"
+
+#: src/metastore/templates/metastore.mako:1028
+#: src/metastore/templates/metastore.mako:1077
+msgid "Drop Table"
+msgstr "Tabelle ablegen"
+
+#: src/metastore/templates/metastore.mako:1030
+msgid "Refresh the table"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:1030
+#: src/metastore/templates/metastore.mako:1033
+#: src/metastore/templates/metastore.mako:1037
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/metastore/templates/metastore.mako:1033
+msgid "Refresh the database"
+msgstr ""
+
+#: src/metastore/templates/metastore.mako:1080
+msgid "Do you really want to drop the table"
+msgstr "Möchten Sie die Tabelle wirklich ablegen?"
+
+#: src/metastore/templates/metastore.mako:1085
+msgid "Yes, drop this table"
+msgstr "Ja, diese Tabelle ablegen"
+
+#: src/metastore/templates/metastore.mako:1214
+msgid "No data available"
+msgstr "Keine Daten verfügbar"
+
+#: src/metastore/templates/metastore.mako:1215
+msgid "No matching records"
+msgstr "Keine übereinstimmenden Datensätze"
+
+#: src/metastore/templates/util.mako:66
+msgid "Unsaved Query"
+msgstr "Nicht gespeicherte Abfrage"
+
+#: src/metastore/templates/util.mako:71
+msgid "Query Results"
+msgstr "Abfrageergebnisse"
+
+#: src/metastore/templates/popups/load_data.mako:53
+msgid "Overwrite existing data"
+msgstr "Bestehende Daten überschreiben"
+
+#: src/metastore/templates/popups/load_data.mako:58
+msgid ""
+"Note that loading data will move data from its location into the table's "
+"storage location."
+msgstr ""
+"Beachten Sie, dass die Daten beim Laden aus ihrem Speicherort in den "
+"Speicherort der Tabelle verschoben werden."
+
+#: src/metastore/templates/popups/load_data.mako:64
+msgid "Submit"
+msgstr "Übermitteln"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Show details"
+#~ msgstr "Details anzeigen"
+
+#~ msgid "Scroll to the column"
+#~ msgstr "Zur Spalte scrollen"
+
+#~ msgid "Edit the description"
+#~ msgstr "Beschreibung bearbeiten"
+
+#~ msgid "Created"
+#~ msgstr "Erstellt"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Stored in"
+#~ msgstr "Gespeichert in"
+
+#~ msgid "Open data location"
+#~ msgstr "Datenspeicherort öffnen"
+
+#~ msgid "Last data update"
+#~ msgstr "Letzte Datenaktualisierung"
+
+#~ msgid "Last DDL modified time"
+#~ msgstr "Zeit der letzten DDL-Änderung"
+
+#~ msgid "Last DDL modified by"
+#~ msgstr "DDL zuletzt geändert von"
+
+#~ msgid "Number of files"
+#~ msgstr "Anzahl Dateien"
+
+#~ msgid "files"
+#~ msgstr "Dateien"
+
+#~ msgid "Number of rows"
+#~ msgstr "Anzahl Zeilen"
+
+#~ msgid "rows"
+#~ msgstr "Zeilen"
+
+#~ msgid "Search for a database..."
+#~ msgstr "Nach einer Datenbank suchen..."
+
+#~ msgid "Database Name"
+#~ msgstr "Datenbankname"
+
+#~ msgid "No databases found"
+#~ msgstr "Keine Datenbanken gefunden"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Search for a table..."
+#~ msgstr "Nach einer Tabelle suchen..."
+
+#~ msgid "Delete the selected tables"
+#~ msgstr "Ausgewählte Tabellen löschen"
+
+#~ msgid "Table Name"
+#~ msgstr "Tabellenname"
+
+#~ msgid "Fact table"
+#~ msgstr "Faktentabelle"
+
+#~ msgid "Dimension table"
+#~ msgstr "Maßtabelle"
+
+#~ msgid "No tables found."
+#~ msgstr "Keine Tabellen gefunden."
+
+#~ msgid "Query the table"
+#~ msgstr "Die Tabelle abfragen"
+
+#~ msgid "View more..."
+#~ msgstr "Mehr anzeigen..."
+
+#~ msgid "Could not load the sample, see the server log for details."
+#~ msgstr ""
+#~ "Das Beispiel konnte nicht geladen "
+#~ "werden. Weitere Informationen finden Sie "
+#~ "in den Serverprotokollen."
+
+#~ msgid "Search for a column..."
+#~ msgstr "Nach einer Spalte suchen..."
+
+#~ msgid "Join Column"
+#~ msgstr "Spalte zusammenführen"
+
+#~ msgid "Join counts"
+#~ msgstr "Anzahl zusammenfügen"
+
+#~ msgid "Inputs"
+#~ msgstr "Eingaben"
+
+#~ msgid "Not inputs"
+#~ msgstr "Keine Eingaben"
+
+#~ msgid "Targets"
+#~ msgstr "Ziele"
+
+#~ msgid "Not targets"
+#~ msgstr "Keine Ziele"
+
+#~ msgid "Source query"
+#~ msgstr "Quellenabfrage"
+
+#~ msgid "No source query"
+#~ msgstr "Keine Quellenabfrage"
+
+#~ msgid "Target queries"
+#~ msgstr "Zielabfragen"
+
+#~ msgid "Not target queries"
+#~ msgstr "Keine Zielabfragen"
+
+#~ msgid "Lineage"
+#~ msgstr "Herkunft"
+
+#~ msgid "Open in Navigator "
+#~ msgstr "Im Navigator öffnen "
+
+#~ msgid "View in Navigator"
+#~ msgstr "Im Navigator anzeigen"
+

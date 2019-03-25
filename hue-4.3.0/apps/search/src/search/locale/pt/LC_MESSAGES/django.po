@@ -1,0 +1,646 @@
+# Portuguese translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:04-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/search/conf.py:25
+msgid "URL of the Solr Server."
+msgstr "URL do servidor Solr."
+
+#: src/search/conf.py:30
+msgid "Query sent when no term is entered."
+msgstr "Consulta enviada quando não é introduzido nenhum termo."
+
+#: src/search/conf.py:35
+msgid "Whether Solr requires client to perform Kerberos authentication."
+msgstr "Se o Solr precisa de um cliente para realizar a autenticação Kerberos."
+
+#: src/search/conf.py:42
+msgid "Use latest Solr 5.2+ features."
+msgstr ""
+
+#: src/search/models.py:230
+msgid "Solr index name pointing to"
+msgstr "Nome de índice Solr a apontar para"
+
+#: src/search/models.py:231
+msgid "Friendlier name in UI"
+msgstr "Nome amigável na IU"
+
+#: src/search/models.py:233
+msgid "Collection with cores data"
+msgstr "Colecção com dados de núcleos"
+
+#: src/search/models.py:233
+msgid "Solr json"
+msgstr "Solr json"
+
+#: src/search/models.py:235
+msgid "Properties"
+msgstr "Propriedades"
+
+#: src/search/models.py:236
+msgid "Hue properties (e.g. results by pages number)"
+msgstr "Propriedades Hue (por exemplo, resultados por número de páginas)"
+
+#: src/search/models.py:243
+msgid "Owner"
+msgstr ""
+
+#: src/search/models.py:243
+msgid "User who created the job."
+msgstr ""
+
+#: src/search/views.py:37
+msgid "You must be a superuser."
+msgstr ""
+
+#: src/search/views.py:40
+msgid "A POST request is required."
+msgstr "É necessário um pedido POST."
+
+#~ msgid "Search page"
+#~ msgstr "Página de pesquisa"
+
+#~ msgid "Collection manager"
+#~ msgstr "Gestor de colecção"
+
+#~ msgid "Search Admin"
+#~ msgstr "Admin de pesquisa"
+
+#~ msgid "Collection"
+#~ msgstr "Colecção"
+
+#~ msgid "Search it"
+#~ msgstr "Pesquisar"
+
+#~ msgid "Template"
+#~ msgstr "Modelo"
+
+#~ msgid "1. Snippet"
+#~ msgstr "1. Fragmento"
+
+#~ msgid "2. Facets"
+#~ msgstr "2. Aspectos"
+
+#~ msgid "3. Sorting"
+#~ msgstr "3. Ordenação"
+
+#~ msgid "4. Highlighting"
+#~ msgstr "4. Realce"
+
+#~ msgid "Collections"
+#~ msgstr "Colecções"
+
+#~ msgid "LAYOUT"
+#~ msgstr "ESQUEMA"
+
+#~ msgid "WIDGETS"
+#~ msgstr "WIDGETS"
+
+#~ msgid "Grid Results"
+#~ msgstr "Resultados de grelha"
+
+#~ msgid "HTML Results"
+#~ msgstr "Resultados em HTML"
+
+#~ msgid "Map"
+#~ msgstr "Mapa"
+
+#~ msgid "Click on the pencil to get started with your dashboard!"
+#~ msgstr "Clique no lápis para começar o seu painel!"
+
+#~ msgid "Pick an index and Click on a layout to start your dashboard!"
+#~ msgstr "Escolha um índice e clique num esquema para começar o seu painel!"
+
+#~ msgid "Drag any of the widgets inside your empty row"
+#~ msgstr "Arraste qualquer um dos widgets dentro da sua linha vazia"
+
+#~ msgid "Row"
+#~ msgstr "Linha"
+
+#~ msgid "Download as JSON"
+#~ msgstr "Transferir como JSON"
+
+#~ msgid "Download as CSV"
+#~ msgstr "Transferir como CSV"
+
+#~ msgid "value"
+#~ msgstr "valor"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "End"
+#~ msgstr "Fim"
+
+#~ msgid "The end cannot be before the starting moment"
+#~ msgstr "O fim não pode ser anterior ao início"
+
+#~ msgid "Pick"
+#~ msgstr "Escolher"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "To"
+#~ msgstr "A"
+
+#~ msgid "Permission denied. You are not an Administrator."
+#~ msgstr "Permissão negada. Não é um administrador."
+
+#~ msgid ""
+#~ "The Solr schema requires an id "
+#~ "field for performing the result "
+#~ "highlighting"
+#~ msgstr "O esquema do Solr requer am campo de id para destacar resultados"
+
+#~ msgid " (Copy)"
+#~ msgstr " (Copiar)"
+
+#~ msgid "Error while accessing the collection"
+#~ msgstr "Erro ao aceder à recolha"
+
+#~ msgid "Error while accessing Solr"
+#~ msgstr "Erro ao aceder a Solr"
+
+#~ msgid "There is no collection to search."
+#~ msgstr "Não existe qualquer colecção para pesquisar."
+
+#~ msgid "Page saved !"
+#~ msgstr "Página guardada!"
+
+#~ msgid "Could not download search results: %s"
+#~ msgstr "Não foi possível transferir resultados da pesquisa: %s"
+
+#~ msgid "POST request required."
+#~ msgstr "É necessário um pedido POST."
+
+#~ msgid "No document was returned by Solr."
+#~ msgstr "O Solr não devolveu qualquer documento."
+
+#~ msgid "This document does not have any index id."
+#~ msgstr "Este documento não dispõe de qualquer id de índice."
+
+#~ msgid "This field does not support stats"
+#~ msgstr "Este campo não suporta estatísticas"
+
+#~ msgid "Search"
+#~ msgstr "Pesquisar"
+
+#~ msgid "Indexes"
+#~ msgstr "Índices"
+
+#~ msgid "Dashboards"
+#~ msgstr "Painéis"
+
+#~ msgid "Filter dashboards..."
+#~ msgstr "Filtrar painéis..."
+
+#~ msgid "Copy"
+#~ msgstr "Copiar"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Create a new dashboard"
+#~ msgstr "Criar um novo painel"
+
+#~ msgid "Create"
+#~ msgstr "Criar"
+
+#~ msgid "There are currently no dashboards defined."
+#~ msgstr "De momento, não existem painéis definidos."
+
+#~ msgid "Click here to add"
+#~ msgstr "Clique aqui para adicionar"
+
+#~ msgid "one or more."
+#~ msgstr "um ou mais."
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Solr Index"
+#~ msgstr "Índice do Solr"
+
+#~ msgid "Shared"
+#~ msgstr "Partilhado"
+
+#~ msgid "Click to edit"
+#~ msgstr "Clique para editar"
+
+#~ msgid "Click to edit the index"
+#~ msgstr "Clique para editar o índice"
+
+#~ msgid "Confirm Delete"
+#~ msgstr "Confirmar eliminação"
+
+#~ msgid "Are you sure you want to delete the selected dashboards?"
+#~ msgstr "Tem a certeza de que pretende eliminar os painéis seleccionados?"
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "Yes"
+#~ msgstr "Sim"
+
+#~ msgid "Dashboard deleted successfully."
+#~ msgstr "Painel eliminado com sucesso."
+
+#~ msgid "Dashboard copied successfully."
+#~ msgstr "Painel copiado com sucesso."
+
+#~ msgid "Retweeted %s times"
+#~ msgstr "Tweet reenviado %s vezes"
+
+#~ msgid "Reply"
+#~ msgstr "Responder"
+
+#~ msgid "Retweet"
+#~ msgstr "Reenviar tweet"
+
+#~ msgid "It seems there is nothing to search on ..."
+#~ msgstr "Aparentemente, não há nada a pesquisar..."
+
+#~ msgid "... First create a search dashboard with "
+#~ msgstr "... Crie primeiro um painel de pesquisa com "
+
+#~ msgid "Dashboard"
+#~ msgstr "Painel"
+
+#~ msgid "... or create a search index with "
+#~ msgstr "... ou crie um painel de pesquisa com "
+
+#~ msgid "Indexer"
+#~ msgstr "Indexador"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Saving..."
+#~ msgstr "A guardar..."
+
+#~ msgid "Settings"
+#~ msgstr "Definições"
+
+#~ msgid "Share"
+#~ msgstr "Partilhar"
+
+#~ msgid "New"
+#~ msgstr "Novo"
+
+#~ msgid "Select a search index"
+#~ msgstr "Seleccionar um índice de pesquisa"
+
+#~ msgid "Show cores"
+#~ msgstr "Mostrar núcleos"
+
+#~ msgid "Grid"
+#~ msgstr "Grelha"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Filter Bar"
+#~ msgstr "Barra de filtro"
+
+#~ msgid "Marker Map"
+#~ msgstr "Marker Map"
+
+#~ msgid "Text Facet"
+#~ msgstr "Aspecto do texto"
+
+#~ msgid "Pie Chart"
+#~ msgstr "Gráfico circular"
+
+#~ msgid "Bar Chart"
+#~ msgstr "Gráfico de barras"
+
+#~ msgid "Line Chart"
+#~ msgstr "Gráfico de linhas"
+
+#~ msgid "Tree"
+#~ msgstr "Árvore"
+
+#~ msgid "Heatmap"
+#~ msgstr "Heatmap"
+
+#~ msgid "Timeline"
+#~ msgstr "Cronologia"
+
+#~ msgid "Gradient Map"
+#~ msgstr "Gradient Map"
+
+#~ msgid "This is an empty widget."
+#~ msgstr "Este é um widget vazio."
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Toggle range or field facet"
+#~ msgstr "Activar/desactivar o aspecto de alcance ou campo"
+
+#~ msgid "range"
+#~ msgstr "intervalo"
+
+#~ msgid "field"
+#~ msgstr "campo"
+
+#~ msgid "Sorting"
+#~ msgstr "Ordenação"
+
+#~ msgid "Toggle sort order"
+#~ msgstr "Activar/desactivar a sequência de ordenação"
+
+#~ msgid "descending"
+#~ msgstr "descendente"
+
+#~ msgid "ascending"
+#~ msgstr "ascendente"
+
+#~ msgid "Limit"
+#~ msgstr "Limite"
+
+#~ msgid "Min Count"
+#~ msgstr "Contagem mín."
+
+#~ msgid "Add a dimension"
+#~ msgstr "Adicione uma dimensão"
+
+#~ msgid "Field"
+#~ msgstr "Campo"
+
+#~ msgid "Choose..."
+#~ msgstr "Seleccione..."
+
+#~ msgid "Exclude this value"
+#~ msgstr "Excluir este valor"
+
+#~ msgid "Show more..."
+#~ msgstr "Mostrar mais..."
+
+#~ msgid "Show more"
+#~ msgstr "Mostrar mais"
+
+#~ msgid "less..."
+#~ msgstr "menos..."
+
+#~ msgid "Filter fields"
+#~ msgstr "Campos de Filtro"
+
+#~ msgid "All"
+#~ msgstr "Tudo"
+
+#~ msgid "Current"
+#~ msgstr "Actual"
+
+#~ msgid "Field Name"
+#~ msgstr "Nome de ficheiro"
+
+#~ msgid "Click to analyse field"
+#~ msgstr "Clique no campo de análise"
+
+#~ msgid "Your search did not match any documents."
+#~ msgstr "A sua pesquisa não corresponde a quaisquer documentos."
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#~ msgid "CSS & JS"
+#~ msgstr "CSS e JS"
+
+#~ msgid "Available Fields"
+#~ msgstr "Campos disponíveis"
+
+#~ msgid "Click on this button to add the field"
+#~ msgstr "Clique neste botão para adicionar um campo"
+
+#~ msgid "Available Functions"
+#~ msgstr "Funções disponíveis"
+
+#~ msgid "Formats date or timestamp in DD-MM-YYYY"
+#~ msgstr "Formata data ou carimbo de data/hora em DD-MM-AAAA"
+
+#~ msgid "Formats date or timestamp in HH:mm:ss"
+#~ msgstr "Formata data ou carimbo de data/hora em HH:mm:ss"
+
+#~ msgid "Formats date or timestamp in DD-MM-YYYY HH:mm:ss"
+#~ msgstr "Formata data ou carimbo de data/hora em DD-MM-AAAA HH:mm:ss"
+
+#~ msgid "Formats a date in the full format"
+#~ msgstr "Formata uma data no formato completo"
+
+#~ msgid "Formats a date as a Unix timestamp"
+#~ msgstr "Formata uma data como um carimbo de data/hora Unix"
+
+#~ msgid "Formats a Unix timestamp as Ns, Nmin, Ndays... ago"
+#~ msgstr "Formata um carimbo de data/hora Unix como Ns, Nmin, Ndias... atrás"
+
+#~ msgid "Downloads and embed the file in the browser"
+#~ msgstr "Transfere e incorpora o ficheiro no browser"
+
+#~ msgid "Downloads the linked file"
+#~ msgstr "Transfere o ficheiro ligado"
+
+#~ msgid "Preview file in File Browser"
+#~ msgstr "Pré-visualizar ficheiro no browser de ficheiro"
+
+#~ msgid "Truncate a value after 100 characters"
+#~ msgstr "Truncar um valor após 100 caracteres"
+
+#~ msgid "Truncate a value after 250 characters"
+#~ msgstr "Truncar um valor após 250 caracteres"
+
+#~ msgid "Truncate a value after 500 characters"
+#~ msgstr "Truncar um valor após 500 caracteres"
+
+#~ msgid "Click on this button to add the function"
+#~ msgstr "Clique neste botão para adicionar uma função"
+
+#~ msgid "Formats a date in the DD-MM-YYYY format"
+#~ msgstr "Formata uma data no formato DD-MM-AAAA"
+
+#~ msgid "Formats a date in the HH:mm:ss format"
+#~ msgstr "Formata uma data no formato HH:mm:ss"
+
+#~ msgid "Formats a date in the DD-MM-YYYY HH:mm:ss format"
+#~ msgstr "Formata uma data no formato DD-MM-AAAA HH:mm:ss"
+
+#~ msgid "Shows the relative time"
+#~ msgstr "Mostra o tempo relativo"
+
+#~ msgid "Click to sort"
+#~ msgstr "Clique para classificar"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Showing"
+#~ msgstr "A mostrar"
+
+#~ msgid "to"
+#~ msgstr "a"
+
+#~ msgid "of"
+#~ msgstr "de"
+
+#~ msgid " results"
+#~ msgstr " resultados"
+
+#~ msgid "Show"
+#~ msgstr "Mostrar"
+
+#~ msgid "results per page"
+#~ msgstr "resultados por página"
+
+#~ msgid "Next"
+#~ msgstr "Seguinte"
+
+#~ msgid "Download first rows as JSON"
+#~ msgstr "Transferir filas iniciais como JSON"
+
+#~ msgid "Download first rows as CSV"
+#~ msgstr "Transferir filas iniciais como CSV"
+
+#~ msgid "Download first rows as XLS"
+#~ msgstr "Transferir filas iniciais como XLS"
+
+#~ msgid "Interval"
+#~ msgstr "Intervalo"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "reset"
+#~ msgstr "repor"
+
+#~ msgid "Group by"
+#~ msgstr "Agrupar por"
+
+#~ msgid "Selected dimensions"
+#~ msgstr "Dimensões seleccionadas"
+
+#~ msgid "Click to zoom, double click to select"
+#~ msgstr "Clique para zoom, clique duas vezes para seleccionar"
+
+#~ msgid "Selected dimension"
+#~ msgstr "Dimensão seleccionada"
+
+#~ msgid "There are currently no filters applied."
+#~ msgstr "Neste momento, não existem filtros aplicados."
+
+#~ msgid "selected"
+#~ msgstr "seleccionado"
+
+#~ msgid "excluded"
+#~ msgstr "excluído"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "Scope"
+#~ msgstr "Âmbito"
+
+#~ msgid "World"
+#~ msgstr "Global"
+
+#~ msgid "USA"
+#~ msgstr "EUA"
+
+#~ msgid "Latitude"
+#~ msgstr "Latitude"
+
+#~ msgid "Longitude"
+#~ msgstr "Longitude"
+
+#~ msgid "Prefix filter..."
+#~ msgstr "Filtro de prefixo..."
+
+#~ msgid "Field name..."
+#~ msgstr "Nome de campo..."
+
+#~ msgid "Terms"
+#~ msgstr "Termos"
+
+#~ msgid "Stats"
+#~ msgstr "Estatísticas"
+
+#~ msgid "There are no terms to be shown"
+#~ msgstr "Não há termos a apresentar."
+
+#~ msgid "Select this value"
+#~ msgstr "Seleccionar este valor"
+
+#~ msgid "There are no stats to be shown"
+#~ msgstr "Não há estatísticas a apresentar."
+
+#~ msgid "Not available"
+#~ msgstr "Indisponível"
+
+#~ msgid "Share this dashboard"
+#~ msgstr "Partilhar este painel"
+
+#~ msgid ""
+#~ "The following URL will show the "
+#~ "current dashboard and the applied "
+#~ "filters."
+#~ msgstr "O seguinte URL mostrará o painel actual e os filtros aplicados."
+
+#~ msgid "Close"
+#~ msgstr "Fechar"
+
+#~ msgid "There are no fields matching your search term."
+#~ msgstr "Nenhum campo corresponde ao seu termo de pesquisa."
+
+#~ msgid "Solr index"
+#~ msgstr "Índice do Solr"
+
+#~ msgid "Visible to everybody"
+#~ msgstr "Visível para todos"
+
+#~ msgid " field analysis"
+#~ msgstr " análise de campo"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "The current collection must be saved to be shared."
+#~ msgstr "Tem de guardar a colecção atual antes de a partilhar."
+
+#~ msgid "The current collection cannot be shared."
+#~ msgstr "A recolha actual não pode ser partilhada."
+
+#~ msgid ""
+#~ "Result highlighting is unavailable: the "
+#~ "collection does not have an index "
+#~ "field"
+#~ msgstr ""
+#~ "O destaque de resultados não está "
+#~ "disponível: a recolha não dispõe de "
+#~ "um campo de índice"
+

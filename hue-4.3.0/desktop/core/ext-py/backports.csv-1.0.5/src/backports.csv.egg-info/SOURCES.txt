@@ -1,0 +1,13 @@
+HISTORY.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/backports/__init__.py
+src/backports/csv.py
+src/backports.csv.egg-info/PKG-INFO
+src/backports.csv.egg-info/SOURCES.txt
+src/backports.csv.egg-info/dependency_links.txt
+src/backports.csv.egg-info/namespace_packages.txt
+src/backports.csv.egg-info/top_level.txt

@@ -1,0 +1,205 @@
+# English translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/about/views.py:61
+msgid "POST request required."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:32
+msgid "Quick Start"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:42
+msgid "Quick Start Wizard"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:44
+msgid "Open gethue.com in a new window."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:44
+msgid "Query. Explore. Repeat."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:54
+msgid "Step 1:"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:54
+msgid "Check Configuration"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:55
+msgid "Step 2:"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:55
+msgid "Examples"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:56
+msgid "Step 3:"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:56
+msgid "Users"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:57
+msgid "Step 4:"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:57
+msgid "Go!"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:64
+msgid "Checking current configuration"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:78
+msgid "Install individual application examples"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:82
+#: src/about/templates/admin_wizard.mako:90
+#: src/about/templates/admin_wizard.mako:106
+#: src/about/templates/admin_wizard.mako:114
+#: src/about/templates/admin_wizard.mako:122
+#: src/about/templates/admin_wizard.mako:130
+#: src/about/templates/admin_wizard.mako:138
+#: src/about/templates/admin_wizard.mako:146
+#: src/about/templates/admin_wizard.mako:153
+msgid "Installing..."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:98
+msgid "Uploading..."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:99
+#, python-format
+msgid ""
+"Send and analyze past %s executed queries to provide smarter SQL "
+"recommendations"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:100
+msgid "SQL Query history"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:148
+msgid "Job Editor"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:165
+msgid "Create or import users"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:170
+msgid "User Admin"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:174
+msgid "Anonymous usage analytics"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:176
+msgid "Check to enable usage analytics"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:177
+msgid "Help improve Hue with anonymous usage analytics."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:179
+msgid "How does it work?"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:180
+msgid ""
+"We are using Google Analytics to see how many times an application or "
+"specific section of an application is used, nothing more."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:189
+msgid "Use the applications"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:192
+msgid "Landing page"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:196
+msgid "Home"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:203
+msgid "Skip wizard next time"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:207
+msgid "Check to skip this wizard next time."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:208
+msgid ""
+"Skip the Quick Start Wizard at next login and land directly on the home "
+"page."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:220
+msgid "Back"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:221
+msgid "Next"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:222
+msgid "Done"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:223
+#: src/about/templates/admin_wizard.mako:229
+msgid "Hue and the Hue logo are trademarks of Cloudera, Inc."
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:228
+msgid "Learn more about Hue and Hadoop on"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:232
+msgid "Sign in now!"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:287
+msgid "Check config failed: "
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:297
+#: src/about/templates/admin_wizard.mako:319
+msgid "Examples refreshed"
+msgstr ""
+
+#: src/about/templates/admin_wizard.mako:389
+msgid "Configuration updated"
+msgstr ""
+

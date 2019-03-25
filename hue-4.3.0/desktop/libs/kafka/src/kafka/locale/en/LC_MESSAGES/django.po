@@ -1,0 +1,208 @@
+# English translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/kafka/conf.py:37
+msgid "Configuration options for Kafka API integration"
+msgstr ""
+
+#: src/kafka/conf.py:41
+msgid "Enable the Kafka integration."
+msgstr ""
+
+#: src/kafka/conf.py:47
+msgid "Base URL of Kafka REST API."
+msgstr ""
+
+#: src/kafka/kafka_client.py:40
+msgid "No error message, please check the logs."
+msgstr ""
+
+#~ msgid "Configuration options for Optimizer API"
+#~ msgstr ""
+
+#~ msgid "Hostname to Optimizer API or compatible service."
+#~ msgstr ""
+
+#~ msgid "The name of the key of the service."
+#~ msgstr ""
+
+#~ msgid "The private part of the key associated with the auth_key."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "auth_key secret. This will be used "
+#~ "when `auth_key_secret` is not set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The name of the workload where "
+#~ "queries are uploaded and optimizations "
+#~ "are calculated from. Automatically guessed "
+#~ "from auth_key and cluster_id if not "
+#~ "specified."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The name of the cluster used to"
+#~ " determine the tenant id when this"
+#~ " one is not specified. Defaults to"
+#~ " the cluster Id or 'default'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform Sentry privilege filtering. Default"
+#~ " to true automatically if the cluster"
+#~ " is secure."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The cache TTL in milliseconds for "
+#~ "the assist/autocomplete/etc calls. Set to "
+#~ "0 to disable the cache."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Automatically upload queries after their "
+#~ "execution in order to improve "
+#~ "recommendations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Automatically upload queried tables DDL "
+#~ "in order to improve recommendations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Automatically upload queried tables and "
+#~ "columns stats in order to improve "
+#~ "recommendations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allow admins to upload the last N"
+#~ " executed queries in the quick start"
+#~ " wizard. Use 0 to disable."
+#~ msgstr ""
+
+#~ msgid "Configuration options for Navigator API"
+#~ msgstr ""
+
+#~ msgid "Base URL to Navigator API."
+#~ msgstr ""
+
+#~ msgid "Which authentication to use: CM or external via LDAP or SAML."
+#~ msgstr ""
+
+#~ msgid "Username of the CM user used for authentication."
+#~ msgstr ""
+
+#~ msgid "CM password of the user used for authentication."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "CM password. This will be used "
+#~ "when the plain password is not "
+#~ "set."
+#~ msgstr ""
+
+#~ msgid "Username of the LDAP user used for authentication."
+#~ msgstr ""
+
+#~ msgid "LDAP password of the user used for authentication."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "LDAP password. This will be used "
+#~ "when the plain password is not "
+#~ "set."
+#~ msgstr ""
+
+#~ msgid "Username of the SAML user used for authentication."
+#~ msgstr ""
+
+#~ msgid "SAML password of the user used for authentication."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "SAML password. This will be used "
+#~ "when the plain password  is not "
+#~ "set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigator configuration directory, where "
+#~ "navigator.client.properties is located."
+#~ msgstr ""
+
+#~ msgid "Max number of items to fetch in one call in object search."
+#~ msgstr ""
+
+#~ msgid "Max number of items to fetch in one call in object search autocomplete."
+#~ msgstr ""
+
+#~ msgid "Enable to search HDFS, S3 files."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "add_tags requires an 'id' parameter and"
+#~ " 'tags' parameter that is a non-"
+#~ "empty list of tags"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "update_properties requires an 'id' parameter"
+#~ " and 'properties' or 'metadata' parameters"
+#~ " that are non-empty dicts"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "update_properties requires an 'id' parameter"
+#~ " and 'keys' parameter that is a "
+#~ "non-empty list"
+#~ msgstr ""
+
+#~ msgid "Failed to authenticate."
+#~ msgstr ""
+
+#~ msgid "Query history upload requires Admin privileges or feature is disabled."
+#~ msgstr ""
+
+#~ msgid "Skipped as task query"
+#~ msgstr ""
+
+#~ msgid "Skipped"
+#~ msgstr ""
+
+#~ msgid "Error while accessing Optimizer"
+#~ msgstr ""
+
+#~ msgid "Call not supported"
+#~ msgstr ""
+
+#~ msgid "Could not get tenant id from cluster id %s: %s"
+#~ msgstr ""
+
+#~ msgid "Error accessing"
+#~ msgstr ""
+

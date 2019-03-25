@@ -1,0 +1,11 @@
+decorator
+requests>=1.0.0
+future
+paste
+zope.interface
+repoze.who
+pycryptodomex
+pytz
+pyOpenSSL
+python-dateutil
+six

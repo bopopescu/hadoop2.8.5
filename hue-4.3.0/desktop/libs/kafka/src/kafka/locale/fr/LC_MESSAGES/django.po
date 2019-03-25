@@ -1,0 +1,278 @@
+# French translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/kafka/conf.py:37
+msgid "Configuration options for Kafka API integration"
+msgstr ""
+
+#: src/kafka/conf.py:41
+msgid "Enable the Kafka integration."
+msgstr ""
+
+#: src/kafka/conf.py:47
+msgid "Base URL of Kafka REST API."
+msgstr ""
+
+#: src/kafka/kafka_client.py:40
+msgid "No error message, please check the logs."
+msgstr "Aucun message d'erreur. Consultez les fichiers journaux."
+
+#~ msgid "Configuration options for Optimizer API"
+#~ msgstr "Options de configuration pour l'API Optimizer"
+
+#~ msgid "Hostname to Optimizer API or compatible service."
+#~ msgstr "Nom d'hôte de l'API Optimizer ou du service compatible."
+
+#~ msgid "The name of the key of the service."
+#~ msgstr "Nom de la clé du service."
+
+#~ msgid "The private part of the key associated with the auth_key."
+#~ msgstr "Partie privée de la clé associée à auth_key."
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "auth_key secret. This will be used "
+#~ "when `auth_key_secret` is not set."
+#~ msgstr ""
+#~ "Exécutez ce script pour produire le "
+#~ "secret auth_key. Cela sera utilisé si"
+#~ " « auth_key_secret » n’est pas défini."
+
+#~ msgid ""
+#~ "The name of the workload where "
+#~ "queries are uploaded and optimizations "
+#~ "are calculated from. Automatically guessed "
+#~ "from auth_key and cluster_id if not "
+#~ "specified."
+#~ msgstr ""
+#~ "Nom de la charge de travail dans"
+#~ " laquelle les requêtes sont chargées "
+#~ "et à partir de laquelle les "
+#~ "optimisations sont calculées. Déterminé "
+#~ "automatiquement à partir de auth_key et"
+#~ " cluster_id si n'est pas spécifié."
+
+#~ msgid ""
+#~ "The name of the cluster used to"
+#~ " determine the tenant id when this"
+#~ " one is not specified. Defaults to"
+#~ " the cluster Id or 'default'."
+#~ msgstr ""
+#~ "Nom du cluster utilisé pour déterminer"
+#~ " l’ID de locataire lorsque celui-ci"
+#~ " n’est pas spécifié. Utilise par "
+#~ "défaut l’ID de cluster ou « default »."
+
+#~ msgid ""
+#~ "Perform Sentry privilege filtering. Default"
+#~ " to true automatically if the cluster"
+#~ " is secure."
+#~ msgstr ""
+#~ "Effectuez le filtrage des privilèges "
+#~ "Sentry. La valeur par défaut True "
+#~ "est automatiquement appliquée si le "
+#~ "cluster est sécurisé."
+
+#~ msgid ""
+#~ "The cache TTL in milliseconds for "
+#~ "the assist/autocomplete/etc calls. Set to "
+#~ "0 to disable the cache."
+#~ msgstr ""
+#~ "TTL du cache, en millisecondes, pour "
+#~ "les appels assist/autocomplete/etc. Réglez-le"
+#~ " sur 0 pour désactiver le cache."
+
+#~ msgid ""
+#~ "Automatically upload queries after their "
+#~ "execution in order to improve "
+#~ "recommendations."
+#~ msgstr ""
+#~ "Charger automatiquement les requêtes après "
+#~ "leur exécution pour améliorer les "
+#~ "recommandations."
+
+#~ msgid ""
+#~ "Automatically upload queried tables DDL "
+#~ "in order to improve recommendations."
+#~ msgstr ""
+#~ "Chargez automatiquement les DDL des "
+#~ "tables pour améliorer les recommandations."
+
+#~ msgid ""
+#~ "Automatically upload queried tables and "
+#~ "columns stats in order to improve "
+#~ "recommendations."
+#~ msgstr ""
+#~ "Chargez automatiquement les tables interrogées"
+#~ " et les statistiques de colonnes pour"
+#~ " améliorer les recommandations."
+
+#~ msgid ""
+#~ "Allow admins to upload the last N"
+#~ " executed queries in the quick start"
+#~ " wizard. Use 0 to disable."
+#~ msgstr ""
+#~ "Autoriser les administrateurs à charger "
+#~ "les N dernières requêtes exécutées dans "
+#~ "l’assistant de démarrage rapide. Utilisez "
+#~ "la valeur 0 pour désactiver cette "
+#~ "option."
+
+#~ msgid "Configuration options for Navigator API"
+#~ msgstr "Options de configuration pour l'API de navigateur"
+
+#~ msgid "Base URL to Navigator API."
+#~ msgstr "URL de base vers l'API de navigateur."
+
+#~ msgid "Which authentication to use: CM or external via LDAP or SAML."
+#~ msgstr "Authentification à utiliser : CM ou externe via LDAP ou SAML."
+
+#~ msgid "Username of the CM user used for authentication."
+#~ msgstr "Nom de l’utilisateur CM utilisé pour l’authentification."
+
+#~ msgid "CM password of the user used for authentication."
+#~ msgstr "Mot de passe CM de l’utilisateur utilisé pour l’authentification."
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "CM password. This will be used "
+#~ "when the plain password is not "
+#~ "set."
+#~ msgstr ""
+#~ "Exécutez ce script pour générer le "
+#~ "mot de passe CM. Il sera utilisé"
+#~ " si le mot de passe normal "
+#~ "n'est pas défini."
+
+#~ msgid "Username of the LDAP user used for authentication."
+#~ msgstr "Nom de l’utilisateur LDAP utilisé pour l’authentification."
+
+#~ msgid "LDAP password of the user used for authentication."
+#~ msgstr "Mot de passe LDAP de l’utilisateur utilisé pour l’authentification."
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "LDAP password. This will be used "
+#~ "when the plain password is not "
+#~ "set."
+#~ msgstr ""
+#~ "Exécutez ce script pour générer le "
+#~ "mot de passe LDAP. Il sera utilisé"
+#~ " si le mot de passe normal "
+#~ "n'est pas défini."
+
+#~ msgid "Username of the SAML user used for authentication."
+#~ msgstr "Nom de l’utilisateur SAML utilisé pour l’authentification."
+
+#~ msgid "SAML password of the user used for authentication."
+#~ msgstr "Mot de passe SAML de l’utilisateur utilisé pour l’authentification."
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "SAML password. This will be used "
+#~ "when the plain password  is not "
+#~ "set."
+#~ msgstr ""
+#~ "Exécutez ce script pour générer le "
+#~ "mot de passe SAML. Il sera utilisé"
+#~ " si le mot de passe normal "
+#~ "n'est pas défini."
+
+#~ msgid ""
+#~ "Navigator configuration directory, where "
+#~ "navigator.client.properties is located."
+#~ msgstr ""
+#~ "Répertoire de configuration du navigateur, "
+#~ "dans lequel se trouve "
+#~ "navigator.client.properties."
+
+#~ msgid "Max number of items to fetch in one call in object search."
+#~ msgstr ""
+#~ "Nombre maximal d'éléments à récupérer "
+#~ "lors d'un appel de recherche d'objets."
+
+#~ msgid "Max number of items to fetch in one call in object search autocomplete."
+#~ msgstr ""
+#~ "Nombre maximal d'éléments à récupérer "
+#~ "lors d'un appel de remplissage "
+#~ "automatique de recherche d'objets."
+
+#~ msgid "Enable to search HDFS, S3 files."
+#~ msgstr "Activez cette option pour rechercher des fichiers S3 HDFS."
+
+#~ msgid ""
+#~ "add_tags requires an 'id' parameter and"
+#~ " 'tags' parameter that is a non-"
+#~ "empty list of tags"
+#~ msgstr ""
+#~ "add_tags requiert un paramètre 'id' et"
+#~ " un paramètre 'tags' constitué d'une "
+#~ "liste d'étiquettes non vide"
+
+#~ msgid ""
+#~ "update_properties requires an 'id' parameter"
+#~ " and 'properties' or 'metadata' parameters"
+#~ " that are non-empty dicts"
+#~ msgstr ""
+#~ "update_properties requiert un paramètre 'id'"
+#~ " et des paramètres 'properties' ou "
+#~ "'metadata' constitués d'un dictionnaire non"
+#~ " vide"
+
+#~ msgid ""
+#~ "update_properties requires an 'id' parameter"
+#~ " and 'keys' parameter that is a "
+#~ "non-empty list"
+#~ msgstr ""
+#~ "update_properties requiert un paramètre 'id'"
+#~ " et un paramètre 'keys' constitué "
+#~ "d'une liste non vide"
+
+#~ msgid "Failed to authenticate."
+#~ msgstr "Echec de l’authentification."
+
+#~ msgid "Query history upload requires Admin privileges or feature is disabled."
+#~ msgstr ""
+#~ "Le chargement de l’historique des "
+#~ "requêtes nécessite des privilèges "
+#~ "d’administrateur ou la fonctionnalité est "
+#~ "désactivée."
+
+#~ msgid "Skipped as task query"
+#~ msgstr "Ignoré, car il s'agit d'une requête relative à une tâche"
+
+#~ msgid "Skipped"
+#~ msgstr "Ignoré"
+
+#~ msgid "Error while accessing Optimizer"
+#~ msgstr "Erreur lors de l'accès à Optimizer"
+
+#~ msgid "Call not supported"
+#~ msgstr "Appel non pris en charge"
+
+#~ msgid "Could not get tenant id from cluster id %s: %s"
+#~ msgstr ""
+#~ "Impossible d'obtenir l'ID de locataire à"
+#~ " partir de l'ID de cluster %s : "
+#~ "%s"
+
+#~ msgid "Error accessing"
+#~ msgstr "Erreur d'accès"
+

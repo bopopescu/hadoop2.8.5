@@ -1,0 +1,557 @@
+# Portuguese translations for Hue.
+# Copyright (C) 2012 Cloudera
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSÃO DO PROJECTO\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:03-0700\n"
+"PO-Revision-Date: 2012-07-30 18:50-0700\n"
+"Last-Translator: NOME COMPLETO <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/metadata/catalog_api.py:432
+msgid ""
+"update_properties requires an 'id' parameter and 'keys' parameter that is"
+" a non-empty list"
+msgstr ""
+
+#: src/metadata/conf.py:91
+msgid "Configuration options for Optimizer API"
+msgstr ""
+
+#: src/metadata/conf.py:95
+msgid "Hostname to Optimizer API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:100 src/metadata/conf.py:191
+msgid "The name of the key of the service."
+msgstr ""
+
+#: src/metadata/conf.py:105 src/metadata/conf.py:196
+msgid "The private part of the key associated with the auth_key."
+msgstr ""
+
+#: src/metadata/conf.py:110
+msgid ""
+"Execute this script to produce the auth_key secret. This will be used "
+"when `auth_key_secret` is not set."
+msgstr ""
+
+#: src/metadata/conf.py:116
+msgid ""
+"The name of the workload where queries are uploaded and optimizations are"
+" calculated from. Automatically guessed from auth_key and cluster_id if "
+"not specified."
+msgstr ""
+
+#: src/metadata/conf.py:121
+msgid ""
+"The name of the cluster used to determine the tenant id when this one is "
+"not specified. Defaults to the cluster Id or 'default'."
+msgstr ""
+
+#: src/metadata/conf.py:127 src/metadata/conf.py:337
+msgid ""
+"Perform Sentry privilege filtering. Default to true automatically if the "
+"cluster is secure."
+msgstr ""
+
+#: src/metadata/conf.py:134
+msgid ""
+"The cache TTL in milliseconds for the assist/autocomplete/etc calls. Set "
+"to 0 to disable the cache."
+msgstr ""
+
+#: src/metadata/conf.py:138
+msgid ""
+"Automatically upload queries after their execution in order to improve "
+"recommendations."
+msgstr ""
+
+#: src/metadata/conf.py:144
+msgid ""
+"Automatically upload queried tables DDL in order to improve "
+"recommendations."
+msgstr ""
+
+#: src/metadata/conf.py:150
+msgid ""
+"Automatically upload queried tables and columns stats in order to improve"
+" recommendations."
+msgstr ""
+
+#: src/metadata/conf.py:156
+msgid ""
+"Allow admins to upload the last N executed queries in the quick start "
+"wizard. Use 0 to disable."
+msgstr ""
+
+#: src/metadata/conf.py:166
+msgid "Configuration options for Altus API"
+msgstr ""
+
+#: src/metadata/conf.py:170
+msgid "Hostname prefix to Altus API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:174
+msgid "Hostname prefix to Altus ADB API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:178
+msgid "Hostname prefix to Altus DE API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:182
+msgid "Hostname prefix to Altus WA API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:186
+msgid "Switch to turn on workload analytics insights."
+msgstr ""
+
+#: src/metadata/conf.py:204
+msgid "Configuration options for Kubernetes API"
+msgstr ""
+
+#: src/metadata/conf.py:208
+msgid "API URL to Kubernetes API or compatible service."
+msgstr ""
+
+#: src/metadata/conf.py:215
+msgid "Public key used for cluster creation."
+msgstr ""
+
+#: src/metadata/conf.py:271
+msgid "Configuration options for Navigator API"
+msgstr ""
+
+#: src/metadata/conf.py:275
+msgid "Base URL to Navigator API."
+msgstr ""
+
+#: src/metadata/conf.py:279
+msgid "Which authentication to use: CM or external via LDAP or SAML."
+msgstr ""
+
+#: src/metadata/conf.py:284
+msgid "Username of the CM user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:288
+msgid "CM password of the user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:293
+msgid ""
+"Execute this script to produce the CM password. This will be used when "
+"the plain password is not set."
+msgstr ""
+
+#: src/metadata/conf.py:300
+msgid "Username of the LDAP user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:304
+msgid "LDAP password of the user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:309
+msgid ""
+"Execute this script to produce the LDAP password. This will be used when "
+"the plain password is not set."
+msgstr ""
+
+#: src/metadata/conf.py:316
+msgid "Username of the SAML user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:320
+msgid "SAML password of the user used for authentication."
+msgstr ""
+
+#: src/metadata/conf.py:325
+msgid ""
+"Execute this script to produce the SAML password. This will be used when "
+"the plain password  is not set."
+msgstr ""
+
+#: src/metadata/conf.py:332
+msgid ""
+"Navigator configuration directory, where navigator.client.properties is "
+"located."
+msgstr ""
+
+#: src/metadata/conf.py:343
+msgid "Max number of items to fetch in one call in object search."
+msgstr ""
+
+#: src/metadata/conf.py:349
+msgid "Max number of items to fetch in one call in object search autocomplete."
+msgstr ""
+
+#: src/metadata/conf.py:356
+msgid "Enable to search HDFS, S3 files."
+msgstr ""
+
+#: src/metadata/conf.py:366
+msgid "Configuration options for Manager API"
+msgstr ""
+
+#: src/metadata/conf.py:370
+msgid "Base URL to API."
+msgstr ""
+
+#: src/metadata/catalog/base.py:38 src/metadata/catalog/base.py:49
+#: src/metadata/catalog/base.py:60 src/metadata/manager_client.py:39
+#: src/metadata/optimizer_client.py:52
+msgid "No error message, please check the logs."
+msgstr ""
+
+#: src/metadata/optimizer_api.py:352
+msgid "Query history upload requires Admin privileges or feature is disabled."
+msgstr ""
+
+#: src/metadata/optimizer_api.py:377
+msgid "Skipped as task query"
+msgstr ""
+
+#: src/metadata/optimizer_api.py:379
+msgid "Skipped"
+msgstr ""
+
+#: src/metadata/optimizer_client.py:177
+msgid "Error while accessing Optimizer"
+msgstr ""
+
+#: src/metadata/optimizer_client.py:236
+msgid "Call not supported"
+msgstr ""
+
+#: src/metadata/optimizer_client.py:407
+#, python-format
+msgid "Could not get tenant id from cluster id %s: %s"
+msgstr ""
+
+#: src/metadata/catalog/base.py:33
+#, python-format
+msgid "Catalog connector interface not recognized: %s"
+msgstr ""
+
+#: src/metadata/catalog/navigator_client.py:279
+#: src/metadata/catalog/navigator_client.py:359
+msgid "Failed to authenticate."
+msgstr ""
+
+#~ msgid "Notebook saved !"
+#~ msgstr "Ficheiro de projecto guardado!"
+
+#~ msgid "Notebook closed !"
+#~ msgstr "Ficheiro de projecto fechado!"
+
+#~ msgid "URL of the Spark Job Server."
+#~ msgstr "URL do servidor de trabalho Spark."
+
+#~ msgid "List of available types of snippets."
+#~ msgstr "Lista de tipos de fragmentos disponíveis."
+
+#~ msgid "The app won't work without a running Job Server"
+#~ msgstr "A aplicação não funciona sem um servidor Job em execução"
+
+#~ msgid "Example: 1 + 1, or press CTRL + space"
+#~ msgstr "Exemplo: 1 + 1 ou prima CTRL + espaço"
+
+#~ msgid "Example: SELECT * FROM tablename, or press CTRL + space"
+#~ msgstr "Exemplo: SELECT * FROM nome de tabela, ou prima CTRL + espaço"
+
+#~ msgid "<h2>This is a text snippet</h2>Type your text here"
+#~ msgstr "<h2>Isto é um fragmento de texto</h2>Escreva o seu texto aqui"
+
+#~ msgid "Query"
+#~ msgstr "Consultar"
+
+#~ msgid "Execute all snippets"
+#~ msgstr "Executar todos os fragmentos"
+
+#~ msgid "Clear all results"
+#~ msgstr "Eliminar todos os resultados"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Saving..."
+#~ msgstr "A guardar..."
+
+#~ msgid "Brand New"
+#~ msgstr "Completamente novo"
+
+#~ msgid "Notebooks"
+#~ msgstr "Ficheiros de projecto"
+
+#~ msgid "Add a new notebook"
+#~ msgstr "Adicionar um novo ficheiro de projecto"
+
+#~ msgid "Toggle Assist"
+#~ msgstr "Activar/desactivar assistente"
+
+#~ msgid "Data sample for"
+#~ msgstr "Amostra de dados para"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Manually refresh the table list"
+#~ msgstr "Actualizar manualmente a lista da tabela"
+
+#~ msgid "database"
+#~ msgstr "base de dados"
+
+#~ msgid "Choose a database..."
+#~ msgstr "Seleccione uma base de dados..."
+
+#~ msgid "Table name..."
+#~ msgstr "Nome da tabela..."
+
+#~ msgid "The selected database has no tables."
+#~ msgstr "A base de dados seleccionada não tem tabelas."
+
+#~ msgid "The database list cannot be loaded."
+#~ msgstr "A lista da base de dados não pode ser carregada."
+
+#~ msgid "Add a snippet to start your new notebook"
+#~ msgstr ""
+#~ "Adicione um fragmento para começar a "
+#~ "utilizar o seu novo ficheiro de "
+#~ "projecto"
+
+#~ msgid "Add a new snippet"
+#~ msgstr "Adicionar um novo fragmento"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Creating session"
+#~ msgstr "A criar sessão"
+
+#~ msgid "CTRL + ENTER"
+#~ msgstr "CTRL + ENTER"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Grid"
+#~ msgstr "Grelha"
+
+#~ msgid "Bars"
+#~ msgstr "Barras"
+
+#~ msgid "Lines"
+#~ msgstr "Linhas"
+
+#~ msgid "Pie"
+#~ msgstr "Circular"
+
+#~ msgid "Scatter"
+#~ msgstr "Dispersão"
+
+#~ msgid "Marker Map"
+#~ msgstr "Marker Map"
+
+#~ msgid "Gradient Map"
+#~ msgstr "Gradient Map"
+
+#~ msgid "Show Logs"
+#~ msgstr "Mostrar registos"
+
+#~ msgid "Download first rows as CSV"
+#~ msgstr "Transferir filas iniciais como CSV"
+
+#~ msgid "CSV"
+#~ msgstr "CSV"
+
+#~ msgid "Download first rows as XLS"
+#~ msgstr "Transferir filas iniciais como XLS"
+
+#~ msgid "Excel"
+#~ msgstr "Excel"
+
+#~ msgid "Loading..."
+#~ msgstr "A carregar..."
+
+#~ msgid "Success."
+#~ msgstr "Sucesso."
+
+#~ msgid "Success but empty results."
+#~ msgstr "Operação realizada com sucesso mas sem resultados."
+
+#~ msgid "Hide columns"
+#~ msgstr "Ocultar colunas"
+
+#~ msgid "columns"
+#~ msgstr "colunas"
+
+#~ msgid "Show columns"
+#~ msgstr "Mostrar colunas"
+
+#~ msgid "Hide"
+#~ msgstr "Ocultar"
+
+#~ msgid "Hide settings"
+#~ msgstr "Ocultar definições"
+
+#~ msgid "x-axis"
+#~ msgstr "eixo X"
+
+#~ msgid "region"
+#~ msgstr "região"
+
+#~ msgid "latitude"
+#~ msgstr "latitude"
+
+#~ msgid "legend"
+#~ msgstr "legenda"
+
+#~ msgid "Choose a column..."
+#~ msgstr "Seleccione uma coluna..."
+
+#~ msgid "y-axis"
+#~ msgstr "eixo Y"
+
+#~ msgid "value"
+#~ msgstr "valor"
+
+#~ msgid "longitude"
+#~ msgstr "longitude"
+
+#~ msgid "label"
+#~ msgstr "etiqueta"
+
+#~ msgid "scatter group"
+#~ msgstr "grupo de dispersão"
+
+#~ msgid "scatter size"
+#~ msgstr "tamanho da dispersão"
+
+#~ msgid "sorting"
+#~ msgstr "a classificar"
+
+#~ msgid "No sorting"
+#~ msgstr "Sem classificação"
+
+#~ msgid "Sort ascending"
+#~ msgstr "Classificação ascendente"
+
+#~ msgid "Sort descending"
+#~ msgstr "Classificação descendente"
+
+#~ msgid "Show settings"
+#~ msgstr "Mostrar definições"
+
+#~ msgid "Paste or type a link"
+#~ msgstr "Colar ou escrever uma hiperligação"
+
+#~ msgid "Open in new window"
+#~ msgstr "Abrir numa nova janela"
+
+#~ msgid "No data available"
+#~ msgstr "Não existem dados disponíveis"
+
+#~ msgid "No matching records"
+#~ msgstr "Não existem registos correspondentes"
+
+#~ msgid "Distribution"
+#~ msgstr "Distribuição"
+
+#~ msgid "There was a problem loading the table preview."
+#~ msgstr "Ocorreu um problema ao carregar a pré-visualização da tabela."
+
+#~ msgid "Spark Editor"
+#~ msgstr "Editor Spark"
+
+#~ msgid "Search for name, description, etc..."
+#~ msgstr "Pesquisar por nome, descrição, etc..."
+
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#~ msgid "Share"
+#~ msgstr "Partilhar"
+
+#~ msgid "Copy"
+#~ msgstr "Copiar"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Create"
+#~ msgstr "Criar"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgid "Owner"
+#~ msgstr "Proprietário"
+
+#~ msgid "Last Modified"
+#~ msgstr "Última modificação"
+
+#~ msgid "Delete the selected notebook(s)?"
+#~ msgstr "Eliminar o(s) ficheiro(s) de projecto seleccionado(s)?"
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "Yes"
+#~ msgstr "Sim"
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+#~ msgstr "A mostrar _START_ a _END_ de _TOTAL_ entradas"
+
+#~ msgid "Showing 0 to 0 of 0 entries"
+#~ msgstr "A mostrar 0 a 0 de 0 entradas"
+
+#~ msgid "(filtered from _MAX_ total entries)"
+#~ msgstr "(filtradas de um total de _MAX_ entradas)"
+
+#~ msgid "First"
+#~ msgstr "Primeiro"
+
+#~ msgid "Last"
+#~ msgstr "Último"
+
+#~ msgid "Next"
+#~ msgstr "Seguinte"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Base URL to Navigator API (e.g. - http://localhost:7187/api/v2)"
+#~ msgstr ""
+
+#~ msgid "Auth username of the hue user used for authentications."
+#~ msgstr ""
+
+#~ msgid "LDAP/PAM/.. password of the hue user used for authentications."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute this script to produce the "
+#~ "auth password. This will be used "
+#~ "when `auth_password` is not set."
+#~ msgstr ""
+

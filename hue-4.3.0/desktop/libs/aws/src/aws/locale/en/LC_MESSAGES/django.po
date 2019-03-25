@@ -1,0 +1,158 @@
+# English translations for Hue.
+# Copyright (C) 2013 Cloudera, Inc
+# This file is distributed under the same license as the Hue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hue VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-10-16 20:02-0700\n"
+"PO-Revision-Date: 2013-10-28 10:31-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: src/aws/conf.py:105
+msgid "One entry for each AWS account"
+msgstr ""
+
+#: src/aws/conf.py:107
+msgid "Information about single AWS account"
+msgstr ""
+
+#: src/aws/conf.py:119
+msgid "Execute this script to produce the AWS access key ID."
+msgstr ""
+
+#: src/aws/conf.py:131
+msgid "Execute this script to produce the AWS secret access key."
+msgstr ""
+
+#: src/aws/conf.py:139
+msgid ""
+"Allow to use environment sources of credentials (environment variables, "
+"EC2 profile)."
+msgstr ""
+
+#: src/aws/conf.py:150
+msgid "Alternate address for the S3 endpoint."
+msgstr ""
+
+#: src/aws/conf.py:156
+msgid "Proxy address to use for the S3 connection."
+msgstr ""
+
+#: src/aws/conf.py:162
+msgid "Proxy port to use for the S3 connection."
+msgstr ""
+
+#: src/aws/conf.py:168
+msgid "Proxy user to use for the S3 connection."
+msgstr ""
+
+#: src/aws/conf.py:174
+msgid "Proxy password to use for the S3 connection."
+msgstr ""
+
+#: src/aws/conf.py:224
+msgid "Failed to connect to S3, check your AWS credentials."
+msgstr ""
+
+#: src/aws/s3/s3fs.py:61
+msgid ""
+"User is not authorized to perform the attempted operation. Check that the"
+" user has appropriate permissions."
+msgstr ""
+
+#: src/aws/s3/s3fs.py:63
+#, python-format
+msgid ""
+"User is not authorized to write or modify path: %s. Check that the user "
+"has write permissions."
+msgstr ""
+
+#: src/aws/s3/s3fs.py:87 src/aws/s3/s3fs.py:98
+#, python-format
+msgid "Failed to create bucket named \"%s\": %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:90 src/aws/s3/s3fs.py:125
+#, python-format
+msgid ""
+"User is not authorized to access bucket named \"%s\". If you are "
+"attempting to create a bucket, this bucket name is already reserved."
+msgstr ""
+
+#: src/aws/s3/s3fs.py:136
+#, python-format
+msgid "Failed to access path at \"%s\": %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:139
+#, python-format
+msgid ""
+"Failed to access path: \"%s\" Check that you have access to read this "
+"bucket and that the region is correct: %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:142
+#, python-format
+msgid "User is not authorized to access path at \"%s\"."
+msgstr ""
+
+#: src/aws/s3/s3fs.py:159 src/aws/s3/s3fs.py:166
+#, python-format
+msgid "Failed to access path \"%s\": %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:164
+#, python-format
+msgid "User is not authorized to access path: \"%s\""
+msgstr ""
+
+#: src/aws/s3/s3fs.py:264
+msgid "Option `glob` is not implemented"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:272 src/aws/s3/s3fs.py:274
+#, python-format
+msgid "Failed to retrieve buckets: %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:297 src/aws/s3/s3fs.py:329
+msgid "Moving to trash is not implemented for S3"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:345
+#, python-format
+msgid "Invalid bucket name: %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:352
+#, python-format
+msgid "Failed to create S3 bucket \"%s\": %s: %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:354
+#, python-format
+msgid "Failed to create S3 bucket \"%s\": %s"
+msgstr ""
+
+#: src/aws/s3/s3fs.py:410
+#, python-format
+msgid "Invalid key to transform: %s"
+msgstr ""
+
+#: src/aws/s3/upload.py:121
+msgid "No S3 filesystem found."
+msgstr ""
+
+#~ msgid "Failed to initialize bucket cache: %s"
+#~ msgstr ""
+
