@@ -1,7 +1,7 @@
 FROM ubuntu:17.10
 
 ENV HADOOP_HOME /opt/hadoop
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/jre
 
 RUN apt-get update
 RUN apt-get install -y --reinstall build-essential
